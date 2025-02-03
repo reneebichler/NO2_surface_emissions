@@ -10,18 +10,9 @@ library(stringr)
 ## Variables
 ## ------------------------------------------------------------------------------------
 
-<<<<<<<< HEAD:01_Preprocessing/00_not_used/NASA_DEM_02_mosaic.R
 state_path <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/GEODATA/s_18mr25/s_18mr25.shp"
 dem_path <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/NASA_DEM"
 output_path <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results"
-========
-## Input
-state_path <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/GEODATA/s_18mr25/s_18mr25.shp"
-dem_path <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/NASA_DEM"
-output_path <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results"
-
-## Output
->>>>>>>> b16c90554cdf44630a91eee6ff11a373b9abc05d:01_Preprocessing/DEM/NASA_DEM_02_mosaic_states.R
 nasa_dem_out <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/DEM"
 
 ## ------------------------------------------------------------------------------------
@@ -30,16 +21,6 @@ nasa_dem_out <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/DEM"
 
 ## Read shapefile as spatial feature
 polygon_sf <- read_sf(state_path)
-
-## Filter only for CONUS and exclude the following
-exclude <- c(
-    "Alaska", "American Samoa", "Hawaii", "Puerto Rico", "Marshall Islands",
-    "Fed States of Micronesia", "Rhode Island", "Virgin Islands", "Guam", "Palau",
-    "Northern Mariana Islands"
-)
-
-## Remove all areas in exclude from polygon
-polygon_sf <- polygon_sf %>% filter(!polygon_sf$NAME %in% exclude)
 
 ## Convert polygon to EPSG 4326
 polygon_sf <- st_transform(polygon_sf, crs = "EPSG:4326")
@@ -63,7 +44,7 @@ for (polygon_idx in seq(1, length(polygon_sf$NAME))) {
     polygon_dem_df <- data.frame()
 
     if (polygon == "Alaska") {
-        print("Alaska was skipped since it's not part of CONUS!")
+        print("Skip Alaska!")
 
     } else {
 
@@ -160,7 +141,6 @@ rownames(dem_aoi_df) <- NULL
 ## Save data frame as csv
 write.csv(dem_aoi_df, paste0(nasa_dem_out, "/dem_aoi_df.csv"))
 
-<<<<<<<< HEAD:01_Preprocessing/00_not_used/NASA_DEM_02_mosaic.R
 ## Create raster that combines all created tif files
 tif_files <- list.files(paste0(nasa_dem_out, "/tif"), full.names = TRUE, recursive = TRUE)
 
@@ -184,6 +164,3 @@ merged_raster_all <- do.call(mosaic, raster_all)
 ## Save merged raster
 writeRaster(merged_raster_all, paste0(nasa_dem_out, "/CONUS_merged_all_dem.tif"), overwrite = TRUE, verbose = TRUE)
 print(paste0("Save: ", nasa_dem_out, "/CONUS_merged_all_dem.tif"))
-========
-print("Complete!")
->>>>>>>> b16c90554cdf44630a91eee6ff11a373b9abc05d:01_Preprocessing/DEM/NASA_DEM_02_mosaic_states.R

@@ -1,0 +1,33 @@
+module: Command not found.
+Linking to GEOS 3.7.2, GDAL 3.0.4, PROJ 6.3.2; sf_use_s2() is TRUE
+terra 1.8.5
+[1] "Filelist in progress ..."
+[1] "Processing tile 2 / 14520"
+[1] "Processing tile 3 / 14520"
+[1] "Processing tile 4 / 14520"
+[1] "Processing tile 5 / 14520"
+[1] "Processing tile 6 / 14520"
+[1] "Processing tile 7 / 14520"
+[1] "Processing tile 8 / 14520"
+[1] "Processing tile 9 / 14520"
+[1] "Processing tile 10 / 14520"
+[1] "Processing tile 11 / 14520"
+[1] "Processing tile 12 / 14520"
+[1] "Processing tile 13 / 14520"
+[1] "Processing tile 14 / 14520"
+[1] "Processing tile 15 / 14520"
+[1] "Processing tile 16 / 14520"
+[1] "Processing tile 17 / 14520"
+[1] "Processing tile 18 / 14520"
+[1] "Processing tile 19 / 14520"
+[1] "Processing tile 20 / 14520"
+[1] "Processing tile 21 / 14520"
+[1] "Processing tile 22 / 14520"
+[1] "Processing tile 23 / 14520"
+[1] "Processing tile 24 / 14520"
+[1] "Processing tile 25 / 14520"
+[1] "Processing tile 26 / 14520"
+[1] "Processing tile 27 / 14520"
+[1] "Processing tile 28 / 14520"
+Killed
+slurmstepd: error: Detected 1 oom_kill event in StepId=57283570.batch. Some of the step tasks have been OOM Killed.

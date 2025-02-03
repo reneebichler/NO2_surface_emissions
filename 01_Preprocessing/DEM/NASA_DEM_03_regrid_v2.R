@@ -94,10 +94,10 @@ print(paste0("Saved shapefile to:", folder_path))
 print("Export shapefile")
 st_write(df_dem_sf, file.path(folder_path, paste0("01_dem_grid_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax, ".shp")))
 
-## ToDo: Rasterize and export
-#print("Rasterize shapefile")
-#sf_raster <- st_rasterize(df_dem_sf %>% dplyr::select(altitude, geometry))
-#print("Export raster file")
-#write_stars(sf_raster, file.path(folder_path, paste0("02_dem_raster_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax, ".tif")))
+## Rasterize and export
+print("Rasterize shapefile")
+sf_raster <- st_rasterize(df_dem_sf %>% dplyr::select(altitude, geometry))
+print("Export raster file")
+write_stars(sf_raster, file.path(folder_path, paste0("02_dem_raster_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax, ".tif")))
 
 print("Complete!")

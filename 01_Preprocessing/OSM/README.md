@@ -53,7 +53,8 @@ The following libraries are required to successful deploy the OSM.R code.
     ```sh
     Rscript OSM.R
     ```
-2. Merge the states Washington, Nevada, and Georgia to the CONUS shapefile (OSM.R) in QGIS
+2. Clean the OSM dataset of the states Washington, Nevada, and Georgia (only keep "motorway" and "trunk")
+3. Merge the states Washington, Nevada, and Georgia to the CONUS shapefile (OSM.R) in QGIS
     * Vector > Data Management Tools > Merge Vector Layers ...
     <img src=https://github.com/CEMPD/NO2_Surface_Estimation/blob/main/Images/QGIS/01_merge_shp.png alt="Merge01" width="400"/>
     

@@ -7,39 +7,30 @@ library(sp)
 library(wk)
 library(s2)
 
+sf::sf_use_s2(FALSE)
+
 ## ------------------------------------------------------------------------------------
 ## Variables
 ## ------------------------------------------------------------------------------------
 
 cellsize <- 0.01
-
-## First grid
-xmin <- -124    # -180
-xmax <- -66     # 180
-ymin <- 25      # -90
-ymax <- 49      # 90
-
-## Second Grid (CONUS)
-#xmin <- -124    # -180
-#xmax <- -66     # 180
-#ymin <- 25      # -90
-#ymax <- 49      # 90
-
-## Test grid (Los Angeles)
-#xmin <- -119    # -180
-#xmax <- -117    # 180
-#ymin <- 33      # -90
-#ymax <- 34      # 90
-
 buffer <- 0
 
+## First grid
+xmin <- -125    # -180
+xmax <- -65     # 180
+ymin <- 24      # -90
+ymax <- 50      # 90
+
+## TRUE:
+## FALSE: 
+clip_to_polygon = TRUE
+
 ## Input
-#polygon_file <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/GEODATA/s_18mr25/s_18mr25.shp"
-polygon_file <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/GEODATA/cb_2022_us_nation_20m/cb_2022_us_nation_20m.shp"
+polygon_file <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/GEODATA/s_18mr25/CONUS.shp"
 
 ## Output
 path_out <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/Grid/"
-
 
 ## ------------------------------------------------------------------------------------
 ## Functions
@@ -49,14 +40,12 @@ path_out <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/Grid/"
 create_shp_grid <- function(cellsize, extension) {
     print(paste0("Create shp grid with cellsize: ", cellsize[1], " x ", cellsize[2], " degree"))
 
-    globe_bb <- matrix(
-        extension,
-        byrow = TRUE,  ncol = 2) %>%
-            list() %>% 
-            st_polygon() %>% 
-            st_sfc(., crs = 4326)
+    globe_bb <- matrix(extension, byrow = TRUE,  ncol = 2) %>%
+    list() %>% 
+    st_polygon() %>% 
+    st_sfc(., crs = 4326)
 
-    # Generate grid of ... x ... tiles
+    ## Generate grid of a x b tiles
     globe_grid <- st_make_grid(
         globe_bb, 
         cellsize = cellsize, 
@@ -158,18 +147,29 @@ st_write(
     driver = "ESRI Shapefile",
     delete_layer = TRUE
 )
- 
-## Clip grid to polygon_buf
-shp_grid_intersect <- st_intersection(st_as_sf(shp_grid), polygon_4326_buf)
 
-## Export intersect output of shapefile file
-print(paste0("Process: ", folder_path, "/03_grid_", cellsize, "x", cellsize, "_", xmin, "_", xmax, "_", ymin, "_", ymax, "_intersect_buffer_", buffer, "m.shp"))
-st_write(
-    st_as_sf(shp_grid_intersect),
-    dsn = paste0(folder_path, "/03_grid_", cellsize, "x", cellsize, "_", xmin, "_", xmax, "_", ymin, "_", ymax, "_intersect_buffer_", buffer, "m.shp"),
-    layer = "03_grid_", cellsize, "x", cellsize, "_", xmin, "_", xmax, "_", ymin, "_", ymax, "_intersect_buffer_", buffer, "m.shp",
-    driver = "ESRI Shapefile",
-    delete_layer = TRUE
-)
+## ------------------------------------------------------------------------------------
+## Information
+## Step 3 is a very time intensive part that can also be carried out in QGIS
+## ------------------------------------------------------------------------------------
+
+if (clip_to_polygon == TRUE) {
+
+    ## Clip grid to polygon_buf
+    shp_grid_sf <- sf::st_as_sf(shp_grid)
+    shp_grid_intersect <- st_intersection(shp_grid_sf, polygon_4326_buf)
+
+    ## Export intersect output of shapefile file
+    print(paste0("Process: ", folder_path, "/03_grid_", cellsize, "x", cellsize, "_", xmin, "_", xmax, "_", ymin, "_", ymax, "_intersect_buffer_", buffer, "m.shp"))
+    st_write(
+        st_as_sf(shp_grid_intersect),
+        dsn = paste0(folder_path, "/03_grid_", cellsize, "x", cellsize, "_", xmin, "_", xmax, "_", ymin, "_", ymax, "_intersect_buffer_", buffer, "m.shp"),
+        layer = "03_grid_", cellsize, "x", cellsize, "_", xmin, "_", xmax, "_", ymin, "_", ymax, "_intersect_buffer_", buffer, "m.shp",
+        driver = "ESRI Shapefile",
+        delete_layer = TRUE
+    )
+} else {
+    print(paste0("Clip to polygon: ", clip_to_polygon))
+}
 
 print("Done!")

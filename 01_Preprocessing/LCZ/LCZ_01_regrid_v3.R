@@ -15,10 +15,10 @@ library(data.table)
 
 cellsize <- 1
 
-xmin <- -124
-xmax <- -66
-ymin <- 25
-ymax <- 49
+xmin <- -125
+xmax <- -65
+ymin <- 24
+ymax <- 50
 
 buffer <- 0
 
@@ -42,7 +42,7 @@ categories_full_name <- c(
   "7" = "7 - Lightweight lowrise",
   "8" = "8 - Large lowrise",
   "9" = "9 - Sparsely built",
-  "10" = "10 - Heavy Industry",
+  "10" = "10 - Heavy industry",
   "11" = "A - Dense trees",
   "12" = "B - Scattered trees",
   "13" = "C - Bush, scrub",
@@ -62,7 +62,7 @@ categories_name <- c(
   "7" = "Lightweight lowrise",
   "8" = "Large lowrise",
   "9" = "Sparsely built",
-  "10" = "Heavy Industry",
+  "10" = "Heavy industry",
   "11" = "Dense trees",
   "12" = "Scattered trees",
   "13" = "Bush, scrub",
@@ -94,56 +94,60 @@ grid_batches <- split(grid, seq(nrow(grid)))
 
 print("Apply batch processing")
 
-# Preallocate a list to store results
+## Preallocate a list to store results
 results <- vector("list", length(grid_batches))
 
-# Batch processing
+## Batch processing
 results <- lapply(seq_along(grid_batches), function(i) {
   cell <- grid_batches[[i]]
   
-  # Crop and mask raster
+  ## Crop and mask raster
   aoi <- mask(crop(tif, vect(cell)), cell)
   
-  # Calculate frequency table for classes
+  ## Calculate frequency table for classes
   t <- as.data.frame(table(terra::values(aoi)))
+
+  ## Information: If the cagetory is NULL the value will be 0
   
   if (nrow(t) > 0) {
 
-    # Exclude class "0"
+    ## Exclude class "0"
     t <- subset(t, Var1 != 0)
     
     if (nrow(t) > 0) {
-      # Find the class with the highest frequency
+      ## Find the class with the highest frequency
       new_class <- t$Var1[which.max(t$Freq)]
       
-      # Add new class information to the cell
+      ## Add new class information to the cell
       cell$class <- new_class
-      cell$cname <- categories_name[new_class]
-      cell$fname <- categories_full_name[new_class]
+      cell$cname <- categories_name[as.character(new_class)]
+      cell$fname <- categories_full_name[as.character(new_class)]
     
     } else {
-      cell$class <- NA
-      cell$cname <- NA
-      cell$fname <- NA
+      cell$class <- 0
+      cell$cname <- "NULL"
+      cell$fname <- "NULL"
     }
 
   } else {
-    cell$class <- NA
-    cell$cname <- NA
-    cell$fname <- NA
+    cell$class <- 0
+    cell$cname <- "NULL"
+    cell$fname <- "NULL"
   }
   
-  # Return the processed cell
+  print(cell)
+
+  ## Return the processed cell
   return(cell)
 })
 
-# Combine results into a single data.table
+## Combine results into a single data.table
 df_lcz <- rbindlist(results)
 
-# Convert to spatial feature object
+## Convert to spatial feature object
 df_lcz_sf <- st_as_sf(df_lcz)
 
-# Create output folder
+## Create output folder
 folder_name <- paste0("00_lcz_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax)
 folder_path <- file.path(output_path, "LCZ", folder_name)
 
@@ -154,8 +158,17 @@ if (!file.exists(folder_path)) {
   print(paste0("Folder already exists at: ", folder_path))
 }
 
-# Export shapefile
+## Export shapefile
 print("Export shapefile")
 st_write(df_lcz_sf, file.path(folder_path, paste0("01_lcz_grid_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax, ".shp")))
+
+## Rasterize and export
+print("Rasterize shapefile")
+sf_raster <- st_rasterize(df_lcz_sf %>% dplyr::select(class, geometry))
+print("Export raster file")
+write_stars(sf_raster, file.path(folder_path, paste0("02_lcz_raster_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax, ".tif")))
+
+## Give permission to folder
+system(paste0("chmod -R 777 ", folder_path))
 
 print("Complete!")
