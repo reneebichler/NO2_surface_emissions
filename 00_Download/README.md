@@ -14,21 +14,16 @@
 </div>
 
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#code-structure">Code Structure</a></li>
+    <li><a href="#file-description">File Description</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#output-files">Output Files</a></li>
   </ol>
 </details>
-
-
-
-
-
 
 
 <!-- Code Structure -->
@@ -37,12 +32,10 @@
 00_Download provides codes to download EPA-AQS data (R) for an input ploygon, in this case CONUS, as well as two Python codes for the automatic download of Sentinel-5P TROPOMI data.
 
 * EPA-AQS
-  * download_EPA-AQS.R
+  * EPA-AQS_download_.R
 
 * TROPOMI
-  * access_token_credentials.py
-  * download_TROPOMI_L2.py
-  * extract_TROPOMI_L2_zip.py
+  * TROPOMI_GEE_download.py
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,14 +59,16 @@ xmaxlon_-67 ... bounding box east (right) coordinate
 yminlat_25 ... bounding box south (bottom) coordinate
 ymaxlat_49 ... bounding box north (top) coordinate
 
-Sentinel-5P original file name:
-* S5P_OFFL_L2__NO2____20240101T110759_20240101T124929_32221_03_020600_20240103T033227
+Sentinel-5P file name:
+* CONUS_S5P_L3_NO2_mm_2019-01-01_2019-01-31.tif
 
+CONUS ... Continental United States (Shapefile)
 S5P ... Sentinel-5P
 OFFL ... Offline data
-L2 ... Level 2 data product
+L3 ... Level 3 data product
 NO2 ... Nitrogend dioxide
-
+mm ... Monthly mean
+yyyy-mm-dd ... start and end date
 
 
 <!-- GETTING STARTED -->
@@ -92,30 +87,35 @@ coming soon ...
     ```
 
 3. For TROPOMI data:
-  1. Install anaconda
+  1. Google Earth Engine
+    Create a Google cloud project. If you use the cloud for research it will be free of charge.
+    However, make sure that your accound or project belongs to the "Academia & Research" oranization.
+  2. Navigate to anaconda or activate the anaconda module (for example UNC Longleaf)
     ```sh
-    pip3 install anaconda
+    source /opt/anaconda3/bin/activate
     ```
-  2. Navigate to anaconda
+    ```sh
+    module load anaconda
+    ```
+  3. Navigate to anaconda
       ```sh
       source /opt/anaconda3/bin/activate 
       ```
-  3. Create Virtual Environment
+  4. Create Virtual Environment
       ```sh
       conda create --name surface-emissions python=3.9
       ```
-  4. Activate the environment
+  5. Activate the environment
       ```sh
       conda activate surface-emissions
       ```
-  5. Install Python package dependencies
+  6. Install Python package dependencies
       ```sh
       pip3 install -r requirements.txt
       ```
-  6. Run
+  7. Run
       ```sh
-      python3 download_TROPOMI_L2.py
-      python3 extract_TROPOMI_zip.py
+      python3 TROPOMI_GEE_download.py
       ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,9 +126,9 @@ coming soon ...
 
 The following table presents the files processed in 00_Download as well as the download link.
 
-| Input         | Format         | Resolution      | Period      | Download              |
-| ---           | ---            | ---             | ---         | ---                   |
-| EPA-AQS       | CSV            | hourly CONUS    | 2019-2024   | Link coming soon ...  |
-| TROPOMI OFFL  | zip to NetCDF  | daily L2 global | 2024        | Link coming soon ...  |
+| Input         | Format         | Resolution      | AOI        | Period      | Download              |
+| ---           | ---            | ---             | ---        | ---         | ---                   |
+| EPA-AQS       | CSV            | hourly          | CONUS      | 2019-2024   | Link coming soon ...  |
+| TROPOMI OFFL  | GeoTIFF        | monthly L3      | CONUS      | 2019-2024   | Link coming soon ...  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

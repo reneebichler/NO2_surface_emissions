@@ -29,25 +29,27 @@ token = Token()
 ## ------------------------------------------------------------------------------------
 
 ## YYYY-mm-dd
-startdate = '2024-11-26'
-enddate = '2024-12-31'
-
-enddate1 = str(datetime.datetime.strptime(enddate, "%Y-%m-%d") + pd.Timedelta(days=1))
+startdate = '2019-02-01'
+enddate = '2024-02-28'
 
 data_collection = "SENTINEL-5P"
 product_variable = "L2__NO2___"
-product_type = "OFFL"
+product_type = "NRTI"
 
 #aoi = 'POLYGON ((-180 90, -180 -90, 180 -90, 180 90, -180 90))'
-aoi = 'POLYGON%20((-180%2090,%20-180%20-90,%20180%20-90,%20180%2090,%20-180%2090))%27)))'
+#aoi = 'POLYGON%20((-180%2090,%20-180%20-90,%20180%20-90,%20180%2090,%20-180%2090))%27)))'
 
-outpath = f"/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/Sentinel-5P/L2/zip/"
+#aoi = 'POLYGON ((-124 49, -124 25, -66 25, -66 49, -124 49))'
+aoi = 'POLYGON%20((-124%2049,%20-124%2025,%20-66%2025,%20-66%2049,%20-124%2049))%27)))'
+
+outpath = f"/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/Sentinel-5P/L2/NRTI/zip/"
 
 ## ------------------------------------------------------------------------------------
 ## Main
 ## ------------------------------------------------------------------------------------
 
 ## Add one day to the end date
+enddate1 = str(datetime.datetime.strptime(enddate, "%Y-%m-%d") + pd.Timedelta(days=1))
 date_l = pd.date_range(start=startdate, end=enddate1)
 print(date_l)
 
@@ -69,7 +71,7 @@ for d in date_l:
     #print(df)
 
     subset_df = df[df['Name'].str.contains("NO2")]
-    subset_df = subset_df[subset_df['Name'].str.contains("OFFL")]
+    subset_df = subset_df[subset_df['Name'].str.contains(product_type)]
     print(subset_df)
 
     for i in range(0, len(subset_df), 1):

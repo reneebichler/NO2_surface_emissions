@@ -1,13 +1,23 @@
 ## ------------------------------------------------------------------------------------
+## Description
+## ------------------------------------------------------------------------------------
+
+"""
+Download monthly mean Sentinel-5P NO2 data from Google Earth Engine, clipped to a shapefile region and exported as GeoTIFF.
+
+Date format: YYYY-MM-DD
+"""
+
+## ------------------------------------------------------------------------------------
 ## Libraries
 ## ------------------------------------------------------------------------------------
 
-library(RAQSAPI)
-library(keyring)
-library(leaflet)
-library(ggplot2)
-library(sf)
-library(geojsonio)
+if (!require('RAQSAPI')) install.packages('RAQSAPI'); library('RAQSAPI')
+if (!require('keyring')) install.packages('keyring'); library('keyring')
+if (!require('leaflet')) install.packages('leaflet'); library('leaflet')
+if (!require('ggplot2')) install.packages('ggplot2'); library('ggplot2')
+if (!require('sf')) install.packages('sf'); library('sf')
+if (!require('geojsonio')) install.packages('geojsonio'); library('geojsonio')
 
 sf::sf_use_s2(FALSE)
 
@@ -17,7 +27,10 @@ sf::sf_use_s2(FALSE)
 
 aoi_l <- c("USA")
 
+## Combined monthly and daily list
 mmdd_l <- c("0131", "0229", "0331", "0430", "0531", "0630", "0731", "0831", "0930", "1031", "1130", "1231")
+
+## Yearly list
 yyyy_l <- c("2019", "2020", "2021", "2022", "2023", "2024")
 
 time_resolution <- "h"
