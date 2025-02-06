@@ -76,7 +76,7 @@ yyyy-mm-dd ... start and end date
 
 coming soon ...
 
-### Requirements
+### EPA-AQS
 
 1. Open terminal in VSC.
 
@@ -85,34 +85,35 @@ coming soon ...
       Rscript download_EPA-AQS.R
       ```
 
-3. For TROPOMI data:
-  1. Google Earth Engine
-    Create a Google cloud project. If you use the cloud for research it will be free of charge.
-    However, make sure that your accound or project belongs to the "Academia & Research" oranization.
-  2. Navigate to anaconda or activate the anaconda module (for example UNC Longleaf)
+### Tropomi
+
+1. Google Earth Engine
+  Create a Google cloud project. If you use the cloud for research it will be free of charge.
+  However, make sure that your accound or project belongs to the "Academia & Research" oranization.
+2. Navigate to anaconda or activate the anaconda module (for example UNC Longleaf)
       ```sh
       source /opt/anaconda3/bin/activate
       ```
       ```sh
       module load anaconda
       ```
-  3. Navigate to anaconda
+3. Navigate to anaconda
       ```sh
       source /opt/anaconda3/bin/activate 
       ```
-  4. Create Virtual Environment
+4. Create Virtual Environment
       ```sh
       conda create --name surface-emissions python=3.9
       ```
-  5. Activate the environment
+5. Activate the environment
       ```sh
       conda activate surface-emissions
       ```
-  6. Install Python package dependencies
+6. Install Python package dependencies
       ```sh
       pip3 install -r requirements.txt
       ```
-  7. Run
+7. Run
       ```sh
       python3 TROPOMI_GEE_download.py
       ```
