@@ -81,22 +81,21 @@ coming soon ...
 1. Open terminal in VSC.
 
 2. For EPA-AQS data:
-  1. 
-    ```sh
-    Rscript download_EPA-AQS.R
-    ```
+      ```sh
+      Rscript download_EPA-AQS.R
+      ```
 
 3. For TROPOMI data:
   1. Google Earth Engine
     Create a Google cloud project. If you use the cloud for research it will be free of charge.
     However, make sure that your accound or project belongs to the "Academia & Research" oranization.
   2. Navigate to anaconda or activate the anaconda module (for example UNC Longleaf)
-    ```sh
-    source /opt/anaconda3/bin/activate
-    ```
-    ```sh
-    module load anaconda
-    ```
+      ```sh
+      source /opt/anaconda3/bin/activate
+      ```
+      ```sh
+      module load anaconda
+      ```
   3. Navigate to anaconda
       ```sh
       source /opt/anaconda3/bin/activate 
