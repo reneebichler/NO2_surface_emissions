@@ -30,7 +30,7 @@
 <!-- Code Structure -->
 ## Code Structure
 
-00_Download provides codes to download EPA-AQS data (R) for an input ploygon, in this case CONUS, as well as two Python codes for the automatic download of Sentinel-5P TROPOMI data.
+xxx
 
 1. 01_extract_grid_TROPOMI.R
 2. EPA-AQS
