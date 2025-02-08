@@ -17,10 +17,10 @@ path_out <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/EPA-AQS/USA/aoi_P
 
 pollutant <- "42602"
 
-xmin <- -125
-xmax <- -67
-ymin <- 25
-ymax <- 49
+xmin <- -125    # -180
+xmax <- -65     # 180
+ymin <- 24      # -90
+ymax <- 50      # 90
 
 ## ------------------------------------------------------------------------------------
 ## Functions
@@ -52,6 +52,7 @@ theme(
 ## Main
 ## ------------------------------------------------------------------------------------
 browser()
+
 df_path <- list.files(path = path_inp, pattern = paste0("EPA-AQS_h_\\d{4}-\\d{2}-\\d{2}-\\d{4}-\\d{2}-\\d{2}_", pollutant, "_xminlon_", xmin, "_xmaxlon_", xmax, "_yminlat_", ymin, "_ymaxlat_", ymax, ".csv"), recursive = FALSE, full.names = TRUE, include.dirs = TRUE)
 
 ## ToDo
@@ -63,11 +64,6 @@ site_l <- unique(aqs_df$site_number)
 
 for (site in site_l) {
     print(paste0("Process site: ", site))
-
-    #if (site  =  =  "1004") {
-    #    View(aqs_df)
-    #    browser()
-    #}
 
     ## Subset data frame based on site and sample frequency
     ## Prefered sample frequency is a measurement for every hour "DAILY: 24"
@@ -144,6 +140,7 @@ for (site in site_l) {
             }
         }
     }
+
     ## Write csv for time series
     write.csv(daily_mean_df, paste0(path_inp, "/", filename, ".csv"))
     print(paste0(path_inp, "/", filename, ".csv"))

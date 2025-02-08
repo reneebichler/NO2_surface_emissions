@@ -13,15 +13,6 @@ library(data.table)
 ## Variables
 ## ------------------------------------------------------------------------------------
 
-cellsize <- 1
-
-xmin <- -125
-xmax <- -65
-ymin <- 24
-ymax <- 50
-
-buffer <- 0
-
 ## Input
 input_path <- "/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/"
 
@@ -79,13 +70,10 @@ categories_name <- c(
 ## Load raster and grid
 tif <- terra::rast(paste0(input_path, "DATA/Demuzere_2020/CONUS_LCZ_map_NLCD_v1.0_epsg4326.tif"))
 
-cellsize_name <- as.character(cellsize)
-
 grid <- st_read(
   paste0(
     input_path,
-    "Results/Grid/00_grid_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax, 
-    "/03_grid_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax, "_intersect_buffer_", buffer, "m.shp"
+    "Results/Grid/00_CONUS_S5P_TROPOMI_L3_1km_grid/01_CONUS_S5P_TROPOMI_L3_1km_grid.shp"
   )
 )
 
@@ -148,7 +136,7 @@ df_lcz <- rbindlist(results)
 df_lcz_sf <- st_as_sf(df_lcz)
 
 ## Create output folder
-folder_name <- paste0("00_lcz_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax)
+folder_name <- paste0("00_CONUS_LCZ_1km")
 folder_path <- file.path(output_path, "LCZ", folder_name)
 
 if (!file.exists(folder_path)) {
@@ -160,13 +148,13 @@ if (!file.exists(folder_path)) {
 
 ## Export shapefile
 print("Export shapefile")
-st_write(df_lcz_sf, file.path(folder_path, paste0("01_lcz_grid_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax, ".shp")))
+st_write(df_lcz_sf, file.path(folder_path, paste0("01_CONUS_LCZ_1km_grid.shp")))
 
 ## Rasterize and export
 print("Rasterize shapefile")
 sf_raster <- st_rasterize(df_lcz_sf %>% dplyr::select(class, geometry))
 print("Export raster file")
-write_stars(sf_raster, file.path(folder_path, paste0("02_lcz_raster_", cellsize_name, "x", cellsize_name, "_", xmin, "_", xmax, "_", ymin, "_", ymax, ".tif")))
+write_stars(sf_raster, file.path(folder_path, paste0("02_CONUS_LCZ_1km_grid_raster.tif")))
 
 ## Give permission to folder
 system(paste0("chmod -R 777 ", folder_path))

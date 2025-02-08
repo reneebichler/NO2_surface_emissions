@@ -40,35 +40,34 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- File Description -->
 ## File Description
 
 The following table gives an insight on the data products downloaded and further processed in the 00_Download folder.
 
-EPA-AQS file name:
+EPA-AQS filename:
 * EPA-AQS_h_2019-01-01-2019-01-31_42602_xminlon_-125_xmaxlon_-67_yminlat_25_ymaxlat_49.csv
 
-EPA-AQS ... Environmental Protection Agency - Air Quality Service
-h ... hourly time resolution
-2019-01-01 ... start period
-2019-01-31 ... end period
-42602 ... Nitrogen dioxide identifier
-xminlon_-125 ... bounding box west (left) coordinate
-xmaxlon_-67 ... bounding box east (right) coordinate
-yminlat_25 ... bounding box south (bottom) coordinate
-ymaxlat_49 ... bounding box north (top) coordinate
+EPA-AQS ... Environmental Protection Agency - Air Quality Service <br/>
+h ... hourly time resolution <br/>
+2019-01-01 ... start period <br/>
+2019-01-31 ... end period <br/>
+42602 ... Nitrogen dioxide identifier <br/>
+xminlon_-125 ... bounding box west (left) coordinate <br/>
+xmaxlon_-67 ... bounding box east (right) coordinate <br/>
+yminlat_25 ... bounding box south (bottom) coordinate <br/>
+ymaxlat_49 ... bounding box north (top) coordinate <br/>
 
-Sentinel-5P file name:
+Sentinel-5P filename:
 * CONUS_S5P_L3_NO2_mm_2019-01-01_2019-01-31.tif
 
-CONUS ... Continental United States (Shapefile)
-S5P ... Sentinel-5P
-OFFL ... Offline data
-L3 ... Level 3 data product
-NO2 ... Nitrogend dioxide
-mm ... Monthly mean
-yyyy-mm-dd ... start and end date
+CONUS ... Continental United States (Shapefile) <br/>
+S5P ... Sentinel-5P <br/>
+OFFL ... Offline data <br/>
+L3 ... Level 3 data product <br/>
+NO2 ... Nitrogend dioxide <br/>
+mm ... Monthly mean <br/>
+yyyy-mm-dd ... start and end date <br/>
 
 
 <!-- GETTING STARTED -->
@@ -126,9 +125,9 @@ coming soon ...
 
 The following table presents the files processed in 00_Download as well as the download link.
 
-| Input         | Format         | Resolution      | AOI        | Period      | Download              |
-| ---           | ---            | ---             | ---        | ---         | ---                   |
-| EPA-AQS       | CSV            | hourly          | CONUS      | 2019-2024   | Link coming soon ...  |
-| TROPOMI OFFL  | GeoTIFF        | monthly L3      | CONUS      | 2019-2024   | Link coming soon ...  |
+| Input         | Format      | Resolution           | AOI        | Period      | Download              |
+| ---           | ---         | ---                  | ---        | ---         | ---                   |
+| EPA-AQS       | CSV         | hourly               | CONUS      | 2019-2024   | Link coming soon ...  |
+| TROPOMI OFFL  | GeoTIFF     | monthly mean L3      | CONUS      | 2019-2024   | Link coming soon ...  |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

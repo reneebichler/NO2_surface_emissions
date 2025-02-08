@@ -1,0 +1,3585 @@
+module: Command not found.
+terra 1.8.5
+Linking to GEOS 3.7.2, GDAL 3.0.4, PROJ 6.3.2; sf_use_s2() is TRUE
+
+Attaching package: ‘data.table’
+
+The following object is masked from ‘package:terra’:
+
+    shift
+
+[1] "Apply batch processing"
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97.63881 ymin: 25.84012 xmax: -97.14557 ymax: 26.00079
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1    27 0100000US US    United States (((-97.14957 26.00044, -97.14557…     5.99
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81.75755 ymin: 25.1188 xmax: -81 ymax: 26.00063
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1    43 0100000US US    United States (((-81 25.12704, -81.0096 25.125…     1.94
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 25.00079 xmax: -80.10995 ymax: 26.00035
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1    44 0100000US US    United States (((-80.11379 26.00035, -80.11501…     1.67
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99.41257 ymin: 26.39651 xmax: -99 ymax: 27.00086
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1    83 0100000US US    United States (((-99 26.40421, -99.03232 26.41…     112.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 26.04128 xmax: -98 ymax: 27
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1    84 0100000US US    United States (((-98 26.06317, -98.01097 26.06…     81.7
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 26.00044 xmax: -97.14957 ymax: 27.00083
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1    85 0100000US US    United States (((-97.37468 27.00083, -97.36687…     9.54
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82.40347 ymin: 26.42206 xmax: -82 ymax: 27.00085
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   100 0100000US US    United States (((-82 26.45213, -82.01391 26.45…     2.48
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 26 xmax: -81 ymax: 27
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   101 0100000US US    United States (((-81.75755 26.00063, -81.80883…     6.83
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 26 xmax: -80.03212 ymax: 27.0003
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   102 0100000US US    United States (((-80.09291 27.0003, -80.08308 …     4.29
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99.98987 ymin: 27 xmax: -99 ymax: 28.00004
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   141 0100000US US    United States (((-99.41257 27.00086, -99.44697…     164.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 27 xmax: -98 ymax: 28
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   142 0100000US US    United States (((-98 27, -99 27, -99 28, -98 2…     135.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 27 xmax: -97 ymax: 28
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   143 0100000US US    United States (((-97 27.9118, -97.00333 27.908…     15.1
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 27.9118 xmax: -96.91556 ymax: 28.00028
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   144 0100000US US    United States (((-96.91556 28.00028, -97 27.91…     2.12
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82.84652 ymin: 27 xmax: -82 ymax: 28.00051
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   158 0100000US US    United States (((-82.40347 27.00085, -82.45267…     16.5
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 27 xmax: -81 ymax: 28
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   159 0100000US US    United States (((-81 27, -82 27, -82 28, -81 2…     24.7
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 27 xmax: -80.09291 ymax: 28.0009
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   160 0100000US US    United States (((-80.5222 28.0009, -80.44767 2…     10.8
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -103.3222 ymin: 28.98212 xmax: -103.116 ymax: 29.00081
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   195 0100000US US    United States (((-103.116 29.00038, -103.1267 …     696.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100.6548 ymin: 28.0191 xmax: -100 ymax: 29.00084
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   198 0100000US US    United States (((-100 28.0191, -100.0287 28.07…     231.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100 ymin: 28 xmax: -99 ymax: 29
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   199 0100000US US    United States (((-99.98987 28.00004, -100 28.0…     177.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 28 xmax: -98 ymax: 29
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   200 0100000US US    United States (((-98 28, -99 28, -99 29, -98 2…     107.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 28 xmax: -97 ymax: 29
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   201 0100000US US    United States (((-97 28, -98 28, -98 29, -97 2…     55.3
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 28 xmax: -96 ymax: 29
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   202 0100000US US    United States (((-96 28.58852, -96.00068 28.58…     10.6
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -96 ymin: 28.58852 xmax: -95.2181 ymax: 29.00063
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   203 0100000US US    United States (((-95.2181 29.00063, -95.29715 …     5.83
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -89.40303 ymin: 28.93381 xmax: -89.14287 ymax: 29.00089
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   209 0100000US US    United States (((-89.14424 29.00046, -89.14287…    0.607
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82.85962 ymin: 28 xmax: -82 ymax: 29.00068
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   216 0100000US US    United States (((-82.83117 28.00051, -82.82816…     22.8
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 28 xmax: -81 ymax: 29
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   217 0100000US US    United States (((-81 28, -82 28, -82 29, -81 2…     26.1
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 28 xmax: -80.5222 ymax: 29.00043
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   218 0100000US US    United States (((-80.8666 29.00043, -80.78702 …     7.66
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -104.6913 ymin: 29.30678 xmax: -104 ymax: 30.00081
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   252 0100000US US    United States (((-104 29.30678, -104.0556 29.3…    1146.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -104 ymin: 29.00038 xmax: -103 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   253 0100000US US    United States (((-103 29.15495, -103.0357 29.1…    1062.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -103 ymin: 29.15495 xmax: -102 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   254 0100000US US    United States (((-102 29.8044, -102.0219 29.80…     792.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -102 ymin: 29.36989 xmax: -101 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   255 0100000US US    United States (((-101 29.36989, -101.0602 29.4…     478.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -101 ymin: 29 xmax: -100 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   256 0100000US US    United States (((-100.6548 29.00084, -100.6602…     454.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100 ymin: 29 xmax: -99 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   257 0100000US US    United States (((-99 29, -100 29, -100 30, -99…     416.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 29 xmax: -98 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   258 0100000US US    United States (((-98 29, -99 29, -99 30, -98 3…     269.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 29 xmax: -97 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   259 0100000US US    United States (((-97 29, -98 29, -98 30, -97 3…     122.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 29 xmax: -96 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   260 0100000US US    United States (((-96 29, -97 29, -97 30, -96 3…     58.8
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -96 ymin: 29 xmax: -95 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   261 0100000US US    United States (((-95 29.16356, -95.02622 29.14…     20.1
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -95 ymin: 29.16356 xmax: -94 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   262 0100000US US    United States (((-94 29.67777, -94.05651 29.67…     4.50
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -94 ymin: 29.67777 xmax: -93 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   263 0100000US US    United States (((-93 29.72568, -93.08818 29.74…   -0.601
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -93 ymin: 29.5315 xmax: -92 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   264 0100000US US    United States (((-92 29.55845, -92.03019 29.57…   -0.466
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -92 ymin: 29.16947 xmax: -91 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   265 0100000US US    United States (((-91 29.16947, -91.0001 29.169…     1.33
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -91 ymin: 29.04006 xmax: -90 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   266 0100000US US    United States (((-90 29.22388, -90.05851 29.18…    0.441
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -90 ymin: 29.00046 xmax: -89.01428 ymax: 30.00094
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   267 0100000US US    United States (((-89.84712 30.00049, -89.85258…    0.173
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -85.53898 ymin: 29.58699 xmax: -85 ymax: 30.00094
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   271 0100000US US    United States (((-85 29.60543, -85.04507 29.58…     5.79
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -85 ymin: 29.60543 xmax: -84.33374 ymax: 30.00087
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   272 0100000US US    United States (((-84.36198 30.00087, -84.34544…     6.02
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -83.84276 ymin: 29.12537 xmax: -83 ymax: 30.0005
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   273 0100000US US    United States (((-83 29.16796, -83.01624 29.12…     15.5
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -83 ymin: 29 xmax: -82 ymax: 30
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   274 0100000US US    United States (((-82.75541 29.00068, -82.75557…     26.1
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 29 xmax: -81 ymax: 30.00081
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   275 0100000US US    United States (((-81.31055 30.00081, -81.28895…     17.1
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 29 xmax: -80.8666 ymax: 29.21516
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   276 0100000US US    United States (((-81 29.21516, -80.99542 29.20…     5.64
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -105.5627 ymin: 30.66993 xmax: -105 ymax: 31.00095
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   309 0100000US US    United States (((-105 30.66993, -105.0012 30.6…    1275.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -105 ymin: 30 xmax: -104 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   310 0100000US US    United States (((-104.6913 30.00081, -104.704 …    1434.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -104 ymin: 30 xmax: -103 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   311 0100000US US    United States (((-103 30, -104 30, -104 31, -1…    1299.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -103 ymin: 30 xmax: -102 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   312 0100000US US    United States (((-102 30, -103 30, -103 31, -1…     962.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -102 ymin: 30 xmax: -101 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   313 0100000US US    United States (((-101 30, -102 30, -102 31, -1…     695.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -101 ymin: 30 xmax: -100 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   314 0100000US US    United States (((-100 30, -101 30, -101 31, -1…     685.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100 ymin: 30 xmax: -99 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   315 0100000US US    United States (((-99 30, -100 30, -100 31, -99…     597.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 30 xmax: -98 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   316 0100000US US    United States (((-98 30, -99 30, -99 31, -98 3…     411.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 30 xmax: -97 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   317 0100000US US    United States (((-97 30, -98 30, -98 31, -97 3…     194.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 30 xmax: -96 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   318 0100000US US    United States (((-96 30, -97 30, -97 31, -96 3…     99.2
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -96 ymin: 30 xmax: -95 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   319 0100000US US    United States (((-95 30, -96 30, -96 31, -95 3…     72.6
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -95 ymin: 30 xmax: -94 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   320 0100000US US    United States (((-94 30, -95 30, -95 31, -94 3…     44.5
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -94 ymin: 30 xmax: -93 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   321 0100000US US    United States (((-93 30, -94 30, -94 31, -93 3…     28.0
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -93 ymin: 30 xmax: -92 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   322 0100000US US    United States (((-92 30, -93 30, -93 31, -92 3…     16.3
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -92 ymin: 30 xmax: -91 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   323 0100000US US    United States (((-91 30, -92 30, -92 31, -91 3…     16.0
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -91 ymin: 30 xmax: -90 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   324 0100000US US    United States (((-90 30, -91 30, -91 31, -90 3…     32.4
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -90 ymin: 30 xmax: -89 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   325 0100000US US    United States (((-89 30.38498, -89.08324 30.36…     38.0
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -89 ymin: 30.31893 xmax: -88 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   326 0100000US US    United States (((-88 30.68146, -88.0084 30.684…     30.3
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -88 ymin: 30.22831 xmax: -87 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   327 0100000US US    United States (((-87 30.35493, -87.15539 30.32…     37.8
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -87 ymin: 30.2708 xmax: -86 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   328 0100000US US    United States (((-86 30.2708, -86.08996 30.303…     45.4
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -86 ymin: 30 xmax: -85 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   329 0100000US US    United States (((-85.53898 30.00094, -85.5719 …     29.9
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -85 ymin: 30 xmax: -84 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   330 0100000US US    United States (((-84 30.09562, -84.00071 30.09…     41.4
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -84 ymin: 30 xmax: -83 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   331 0100000US US    United States (((-83.84276 30.0005, -83.93151 …     37.4
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -83 ymin: 30 xmax: -82 ymax: 31
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   332 0100000US US    United States (((-82 30, -83 30, -83 31, -82 3…     39.4
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 30 xmax: -81.31055 ymax: 31.00094
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   333 0100000US US    United States (((-81.41562 31.00094, -81.41252…     12.3
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -113.2037 ymin: 31.93824 xmax: -113 ymax: 32.00064
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   359 0100000US US    United States (((-113 31.93824, -113.2037 32.0…     357.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -113 ymin: 31.62659 xmax: -112 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   360 0100000US US    United States (((-112 31.62659, -112.365 31.74…     580.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -112 ymin: 31.33224 xmax: -111 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   361 0100000US US    United States (((-111 31.33251, -111.0748 31.3…    1052.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -111 ymin: 31.33251 xmax: -110 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   362 0100000US US    United States (((-110 31.33412, -110.4598 31.3…    1388.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -110 ymin: 31.33248 xmax: -109 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   363 0100000US US    United States (((-109 31.33248, -109.05 31.332…    1485.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -109 ymin: 31.33232 xmax: -108 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   364 0100000US US    United States (((-108 31.78407, -108.2084 31.7…    1495.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -108 ymin: 31.7836 xmax: -107 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   365 0100000US US    United States (((-107 31.7837, -107.2968 31.78…    1304.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -107 ymin: 31.38978 xmax: -106 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   366 0100000US US    United States (((-106 31.38978, -106.0049 31.3…    1241.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -106 ymin: 31 xmax: -105 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   367 0100000US US    United States (((-105.5627 31.00095, -105.5795…    1358.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -105 ymin: 31 xmax: -104 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   368 0100000US US    United States (((-104 31, -105 31, -105 32, -1…    1255.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -104 ymin: 31 xmax: -103 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   369 0100000US US    United States (((-103 31, -104 31, -104 32, -1…     869.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -103 ymin: 31 xmax: -102 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   370 0100000US US    United States (((-102 31, -103 31, -103 32, -1…     826.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -102 ymin: 31 xmax: -101 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   371 0100000US US    United States (((-101 31, -102 31, -102 32, -1…     804.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -101 ymin: 31 xmax: -100 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   372 0100000US US    United States (((-100 31, -101 31, -101 32, -1…     649.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100 ymin: 31 xmax: -99 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   373 0100000US US    United States (((-99 31, -100 31, -100 32, -99…     523.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 31 xmax: -98 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   374 0100000US US    United States (((-98 31, -99 31, -99 32, -98 3…     415.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 31 xmax: -97 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   375 0100000US US    United States (((-97 31, -98 31, -98 32, -97 3…     228.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 31 xmax: -96 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   376 0100000US US    United States (((-96 31, -97 31, -97 32, -96 3…     133.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -96 ymin: 31 xmax: -95 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   377 0100000US US    United States (((-95 31, -96 31, -96 32, -95 3…     104.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -95 ymin: 31 xmax: -94 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   378 0100000US US    United States (((-94 31, -95 31, -95 32, -94 3…     91.0
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -94 ymin: 31 xmax: -93 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   379 0100000US US    United States (((-93 31, -94 31, -94 32, -93 3…     76.6
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -93 ymin: 31 xmax: -92 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   380 0100000US US    United States (((-92 31, -93 31, -93 32, -92 3…     43.6
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -92 ymin: 31 xmax: -91 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   381 0100000US US    United States (((-91 31, -92 31, -92 32, -91 3…     40.8
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -91 ymin: 31 xmax: -90 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   382 0100000US US    United States (((-90 31, -91 31, -91 32, -90 3…     110.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -90 ymin: 31 xmax: -89 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   383 0100000US US    United States (((-89 31, -90 31, -90 32, -89 3…     94.3
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -89 ymin: 31 xmax: -88 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   384 0100000US US    United States (((-88 31, -89 31, -89 32, -88 3…     61.5
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -88 ymin: 31 xmax: -87 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   385 0100000US US    United States (((-87 31, -88 31, -88 32, -87 3…     66.9
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -87 ymin: 31 xmax: -86 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   386 0100000US US    United States (((-86 31, -87 31, -87 32, -86 3…     93.2
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -86 ymin: 31 xmax: -85 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   387 0100000US US    United States (((-85 31, -86 31, -86 32, -85 3…     97.1
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -85 ymin: 31 xmax: -84 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   388 0100000US US    United States (((-84 31, -85 31, -85 32, -84 3…     80.0
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -84 ymin: 31 xmax: -83 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   389 0100000US US    United States (((-83 31, -84 31, -84 32, -83 3…     89.7
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -83 ymin: 31 xmax: -82 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   390 0100000US US    United States (((-82 31, -83 31, -83 32, -82 3…     52.5
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 31 xmax: -81 ymax: 32
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   391 0100000US US    United States (((-81 31.85705, -81.00032 31.85…     13.7
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 31.85705 xmax: -80.84663 ymax: 32.00051
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   392 0100000US US    United States (((-80.84663 32.00051, -80.84844…     1.59
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -118.6302 ymin: 32.8006 xmax: -118.3535 ymax: 33.00098
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   412 0100000US US    United States (((-118.5597 33.00098, -118.5401…     237.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -117.2822 ymin: 32.53416 xmax: -117 ymax: 33.0008
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   413 0100000US US    United States (((-117 32.5451, -117.1249 32.53…     104.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -117 ymin: 32.5451 xmax: -116 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   414 0100000US US    United States (((-116 32.62696, -116.0466 32.6…     706.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -116 ymin: 32.62696 xmax: -115 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   415 0100000US US    United States (((-115 32.69973, -115.0008 32.6…     28.3
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -115 ymin: 32.24629 xmax: -114 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   416 0100000US US    United States (((-114 32.24629, -114.8136 32.4…     163.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -114 ymin: 32 xmax: -113 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   417 0100000US US    United States (((-113.2037 32.00064, -113.3338…     240.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -113 ymin: 32 xmax: -112 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   418 0100000US US    United States (((-112 32, -113 32, -113 33, -1…     564.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -112 ymin: 32 xmax: -111 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   419 0100000US US    United States (((-111 32, -112 32, -112 33, -1…     658.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -111 ymin: 32 xmax: -110 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   420 0100000US US    United States (((-110 32, -111 32, -111 33, -1…    1238.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -110 ymin: 32 xmax: -109 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   421 0100000US US    United States (((-109 32, -110 32, -110 33, -1…    1288.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -109 ymin: 32 xmax: -108 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   422 0100000US US    United States (((-108 32, -109 32, -109 33, -1…    1553.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -108 ymin: 32 xmax: -107 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   423 0100000US US    United States (((-107 32, -108 32, -108 33, -1…    1496.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -107 ymin: 32 xmax: -106 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   424 0100000US US    United States (((-106 32, -107 32, -107 33, -1…    1326.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -106 ymin: 32 xmax: -105 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   425 0100000US US    United States (((-105 32, -106 32, -106 33, -1…    1678.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -105 ymin: 32 xmax: -104 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   426 0100000US US    United States (((-104 32, -105 32, -105 33, -1…    1226.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -104 ymin: 32 xmax: -103 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   427 0100000US US    United States (((-103 32, -104 32, -104 33, -1…    1086.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -103 ymin: 32 xmax: -102 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   428 0100000US US    United States (((-102 32, -103 32, -103 33, -1…     966.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -102 ymin: 32 xmax: -101 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   429 0100000US US    United States (((-101 32, -102 32, -102 33, -1…     790.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -101 ymin: 32 xmax: -100 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   430 0100000US US    United States (((-100 32, -101 32, -101 33, -1…     658.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100 ymin: 32 xmax: -99 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   431 0100000US US    United States (((-99 32, -100 32, -100 33, -99…     517.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 32 xmax: -98 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   432 0100000US US    United States (((-98 32, -99 32, -99 33, -98 3…     382.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 32 xmax: -97 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   433 0100000US US    United States (((-97 32, -98 32, -98 33, -97 3…     245.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 32 xmax: -96 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   434 0100000US US    United States (((-96 32, -97 32, -97 33, -96 3…     142.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -96 ymin: 32 xmax: -95 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   435 0100000US US    United States (((-95 32, -96 32, -96 33, -95 3…     137.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -95 ymin: 32 xmax: -94 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   436 0100000US US    United States (((-94 32, -95 32, -95 33, -94 3…     97.8
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -94 ymin: 32 xmax: -93 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   437 0100000US US    United States (((-93 32, -94 32, -94 33, -93 3…     70.7
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -93 ymin: 32 xmax: -92 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   438 0100000US US    United States (((-92 32, -93 32, -93 33, -92 3…     56.5
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -92 ymin: 32 xmax: -91 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   439 0100000US US    United States (((-91 32, -92 32, -92 33, -91 3…     26.1
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -91 ymin: 32 xmax: -90 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   440 0100000US US    United States (((-90 32, -91 32, -91 33, -90 3…     66.3
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -90 ymin: 32 xmax: -89 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   441 0100000US US    United States (((-89 32, -90 32, -90 33, -89 3…     125.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -89 ymin: 32 xmax: -88 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   442 0100000US US    United States (((-88 32, -89 32, -89 33, -88 3…     90.2
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -88 ymin: 32 xmax: -87 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   443 0100000US US    United States (((-87 32, -88 32, -88 33, -87 3…     65.3
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -87 ymin: 32 xmax: -86 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   444 0100000US US    United States (((-86 32, -87 32, -87 33, -86 3…     113.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -86 ymin: 32 xmax: -85 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   445 0100000US US    United States (((-85 32, -86 32, -86 33, -85 3…     151.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -85 ymin: 32 xmax: -84 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   446 0100000US US    United States (((-84 32, -85 32, -85 33, -84 3…     167.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -84 ymin: 32 xmax: -83 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   447 0100000US US    United States (((-83 32, -84 32, -84 33, -83 3…     112.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -83 ymin: 32 xmax: -82 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   448 0100000US US    United States (((-82 32, -83 32, -83 33, -82 3…     78.0
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 32 xmax: -81 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   449 0100000US US    United States (((-81 32, -82 32, -82 33, -81 3…     37.6
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 32 xmax: -80 ymax: 33
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   450 0100000US US    United States (((-80 32.60673, -80.0008 32.605…     10.4
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -80 ymin: 32.60673 xmax: -79.56976 ymax: 33.00097
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   451 0100000US US    United States (((-79.58487 33.00097, -79.60662…     5.65
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -120.3874 ymin: 33.89571 xmax: -120 ymax: 34.00096
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   468 0100000US US    United States (((-120.0055 34.00002, -120 33.9…     182.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -120 ymin: 33.21543 xmax: -119.3631 ymax: 34.00094
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   469 0100000US US    United States (((-119.3631 34.00094, -119.3631…     155.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -118.6416 ymin: 33.00093 xmax: -118 ymax: 34.00101
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   470 0100000US US    United States (((-118 33.65393, -118.0006 33.6…     66.5
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -118 ymin: 33 xmax: -117 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   471 0100000US US    United States (((-117.2781 33.0008, -117.2808 …     335.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -117 ymin: 33 xmax: -116 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   472 0100000US US    United States (((-116 33, -117 33, -117 34, -1…     763.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -116 ymin: 33 xmax: -115 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   473 0100000US US    United States (((-115 33, -116 33, -116 34, -1…     330.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -115 ymin: 33 xmax: -114 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   474 0100000US US    United States (((-114 33, -115 33, -115 34, -1…     294.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -114 ymin: 33 xmax: -113 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   475 0100000US US    United States (((-113 33, -114 33, -114 34, -1…     470.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -113 ymin: 33 xmax: -112 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   476 0100000US US    United States (((-112 33, -113 33, -113 34, -1…     448.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -112 ymin: 33 xmax: -111 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   477 0100000US US    United States (((-111 33, -112 33, -112 34, -1…     763.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -111 ymin: 33 xmax: -110 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   478 0100000US US    United States (((-110 33, -111 33, -111 34, -1…    1319.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -110 ymin: 33 xmax: -109 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   479 0100000US US    United States (((-109 33, -110 33, -110 34, -1…    2002.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -109 ymin: 33 xmax: -108 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   480 0100000US US    United States (((-108 33, -109 33, -109 34, -1…    2164.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -108 ymin: 33 xmax: -107 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   481 0100000US US    United States (((-107 33, -108 33, -108 34, -1…    1975.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -107 ymin: 33 xmax: -106 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   482 0100000US US    United States (((-106 33, -107 33, -107 34, -1…    1538.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -106 ymin: 33 xmax: -105 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   483 0100000US US    United States (((-105 33, -106 33, -106 34, -1…    1915.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -105 ymin: 33 xmax: -104 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   484 0100000US US    United States (((-104 33, -105 33, -105 34, -1…    1216.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -104 ymin: 33 xmax: -103 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   485 0100000US US    United States (((-103 33, -104 33, -104 34, -1…    1267.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -103 ymin: 33 xmax: -102 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   486 0100000US US    United States (((-102 33, -103 33, -103 34, -1…    1083.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -102 ymin: 33 xmax: -101 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   487 0100000US US    United States (((-101 33, -102 33, -102 34, -1…     902.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -101 ymin: 33 xmax: -100 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   488 0100000US US    United States (((-100 33, -101 33, -101 34, -1…     616.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100 ymin: 33 xmax: -99 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   489 0100000US US    United States (((-99 33, -100 33, -100 34, -99…     427.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 33 xmax: -98 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   490 0100000US US    United States (((-98 33, -99 33, -99 34, -98 3…     329.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 33 xmax: -97 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   491 0100000US US    United States (((-97 33, -98 33, -98 34, -97 3…     263.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 33 xmax: -96 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   492 0100000US US    United States (((-96 33, -97 33, -97 34, -96 3…     195.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -96 ymin: 33 xmax: -95 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   493 0100000US US    United States (((-95 33, -96 33, -96 34, -95 3…     144.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -95 ymin: 33 xmax: -94 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   494 0100000US US    United States (((-94 33, -95 33, -95 34, -94 3…     104.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -94 ymin: 33 xmax: -93 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   495 0100000US US    United States (((-93 33, -94 33, -94 34, -93 3…     88.4
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -93 ymin: 33 xmax: -92 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   496 0100000US US    United States (((-92 33, -93 33, -93 34, -92 3…     58.3
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -92 ymin: 33 xmax: -91 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   497 0100000US US    United States (((-91 33, -92 33, -92 34, -91 3…     47.3
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -91 ymin: 33 xmax: -90 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   498 0100000US US    United States (((-90 33, -91 33, -91 34, -90 3…     42.8
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -90 ymin: 33 xmax: -89 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   499 0100000US US    United States (((-89 33, -90 33, -90 34, -89 3…     116.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -89 ymin: 33 xmax: -88 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   500 0100000US US    United States (((-88 33, -89 33, -89 34, -88 3…     85.2
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -88 ymin: 33 xmax: -87 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   501 0100000US US    United States (((-87 33, -88 33, -88 34, -87 3…     130.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -87 ymin: 33 xmax: -86 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   502 0100000US US    United States (((-86 33, -87 33, -87 34, -86 3…     197.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -86 ymin: 33 xmax: -85 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   503 0100000US US    United States (((-85 33, -86 33, -86 34, -85 3…     286.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -85 ymin: 33 xmax: -84 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   504 0100000US US    United States (((-84 33, -85 33, -85 34, -84 3…     270.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -84 ymin: 33 xmax: -83 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   505 0100000US US    United States (((-83 33, -84 33, -84 34, -83 3…     189.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -83 ymin: 33 xmax: -82 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   506 0100000US US    United States (((-82 33, -83 33, -83 34, -82 3…     131.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 33 xmax: -81 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   507 0100000US US    United States (((-81 33, -82 33, -82 34, -81 3…     101.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 33 xmax: -80 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   508 0100000US US    United States (((-80 33, -81 33, -81 34, -80 3…     42.2
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -80 ymin: 33 xmax: -79 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   509 0100000US US    United States (((-79 33.56694, -79.02852 33.53…     13.6
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -79 ymin: 33.56694 xmax: -78 ymax: 34
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   510 0100000US US    United States (((-78 33.85792, -78.00677 33.85…     11.5
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -78 ymin: 33.85331 xmax: -77.90259 ymax: 34.00036
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   511 0100000US US    United States (((-77.90259 34.00036, -77.91554…     1.76
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -120.6708 ymin: 34.00002 xmax: -120 ymax: 35.00094
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   526 0100000US US    United States (((-120 34.45071, -120.0507 34.4…     277.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -120 ymin: 34.00044 xmax: -119 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   527 0100000US US    United States (((-119 34.06481, -119.07 34.090…     901.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -119 ymin: 34 xmax: -118 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   528 0100000US US    United States (((-118.4928 34.00101, -118.5173…     749.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -118 ymin: 34 xmax: -117 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   529 0100000US US    United States (((-117 34, -118 34, -118 35, -1…     932.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -117 ymin: 34 xmax: -116 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   530 0100000US US    United States (((-116 34, -117 34, -117 35, -1…    1020.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -116 ymin: 34 xmax: -115 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   531 0100000US US    United States (((-115 34, -116 34, -116 35, -1…     595.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -115 ymin: 34 xmax: -114 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   532 0100000US US    United States (((-114 34, -115 34, -115 35, -1…     450.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -114 ymin: 34 xmax: -113 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   533 0100000US US    United States (((-113 34, -114 34, -114 35, -1…     925.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -113 ymin: 34 xmax: -112 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   534 0100000US US    United States (((-112 34, -113 34, -113 35, -1…    1381.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -112 ymin: 34 xmax: -111 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   535 0100000US US    United States (((-111 34, -112 34, -112 35, -1…    1637.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -111 ymin: 34 xmax: -110 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   536 0100000US US    United States (((-110 34, -111 34, -111 35, -1…    1842.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -110 ymin: 34 xmax: -109 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   537 0100000US US    United States (((-109 34, -110 34, -110 35, -1…    1965.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -109 ymin: 34 xmax: -108 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   538 0100000US US    United States (((-108 34, -109 34, -109 35, -1…    2228.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -108 ymin: 34 xmax: -107 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   539 0100000US US    United States (((-107 34, -108 34, -108 35, -1…    2062.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -107 ymin: 34 xmax: -106 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   540 0100000US US    United States (((-106 34, -107 34, -107 35, -1…    1793.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -106 ymin: 34 xmax: -105 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   541 0100000US US    United States (((-105 34, -106 34, -106 35, -1…    1880.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -105 ymin: 34 xmax: -104 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   542 0100000US US    United States (((-104 34, -105 34, -105 35, -1…    1422.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -104 ymin: 34 xmax: -103 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   543 0100000US US    United States (((-103 34, -104 34, -104 35, -1…    1341.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -103 ymin: 34 xmax: -102 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   544 0100000US US    United States (((-102 34, -103 34, -103 35, -1…    1180.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -102 ymin: 34 xmax: -101 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   545 0100000US US    United States (((-101 34, -102 34, -102 35, -1…     978.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -101 ymin: 34 xmax: -100 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   546 0100000US US    United States (((-100 34, -101 34, -101 35, -1…     629.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100 ymin: 34 xmax: -99 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   547 0100000US US    United States (((-99 34, -100 34, -100 35, -99…     447.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 34 xmax: -98 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   548 0100000US US    United States (((-98 34, -99 34, -99 35, -98 3…     367.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 34 xmax: -97 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   549 0100000US US    United States (((-97 34, -98 34, -98 35, -97 3…     306.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 34 xmax: -96 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   550 0100000US US    United States (((-96 34, -97 34, -97 35, -96 3…     246.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -96 ymin: 34 xmax: -95 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   551 0100000US US    United States (((-95 34, -96 34, -96 35, -95 3…     230.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -95 ymin: 34 xmax: -94 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   552 0100000US US    United States (((-94 34, -95 34, -95 35, -94 3…     282.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -94 ymin: 34 xmax: -93 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   553 0100000US US    United States (((-93 34, -94 34, -94 35, -93 3…     226.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -93 ymin: 34 xmax: -92 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   554 0100000US US    United States (((-92 34, -93 34, -93 35, -92 3…     113.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -92 ymin: 34 xmax: -91 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   555 0100000US US    United States (((-91 34, -92 34, -92 35, -91 3…     59.5
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -91 ymin: 34 xmax: -90 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   556 0100000US US    United States (((-90 34, -91 34, -91 35, -90 3…     59.2
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -90 ymin: 34 xmax: -89 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   557 0100000US US    United States (((-89 34, -90 34, -90 35, -89 3…     120.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -89 ymin: 34 xmax: -88 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   558 0100000US US    United States (((-88 34, -89 34, -89 35, -88 3…     140.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -88 ymin: 34 xmax: -87 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   559 0100000US US    United States (((-87 34, -88 34, -88 35, -87 3…     213.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -87 ymin: 34 xmax: -86 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   560 0100000US US    United States (((-86 34, -87 34, -87 35, -86 3…     262.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -86 ymin: 34 xmax: -85 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   561 0100000US US    United States (((-85 34, -86 34, -86 35, -85 3…     296.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -85 ymin: 34 xmax: -84 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   562 0100000US US    United States (((-84 34, -85 34, -85 35, -84 3…     405.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -84 ymin: 34 xmax: -83 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   563 0100000US US    United States (((-83 34, -84 34, -84 35, -83 3…     411.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -83 ymin: 34 xmax: -82 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   564 0100000US US    United States (((-82 34, -83 34, -83 35, -82 3…     225.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 34 xmax: -81 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   565 0100000US US    United States (((-81 34, -82 34, -82 35, -81 3…     154.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 34 xmax: -80 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   566 0100000US US    United States (((-80 34, -81 34, -81 35, -80 3…     115.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -80 ymin: 34 xmax: -79 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   567 0100000US US    United States (((-79 34, -80 34, -80 35, -79 3…     47.6
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -79 ymin: 34 xmax: -78 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   568 0100000US US    United States (((-78 34, -79 34, -79 35, -78 3…     25.4
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -78 ymin: 34 xmax: -77 ymax: 35
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   569 0100000US US    United States (((-77 34.66259, -77.11296 34.63…     14.0
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -77 ymin: 34.58858 xmax: -76.11623 ymax: 35.00042
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   570 0100000US US    United States (((-76.11623 35.00042, -76.13727…     7.24
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -121.518 ymin: 35.46022 xmax: -121 ymax: 36.00104
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   583 0100000US US    United States (((-121 35.46022, -121.0034 35.4…     419.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -121 ymin: 35 xmax: -120 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   584 0100000US US    United States (((-120.6429 35.00094, -120.6336…     430.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -120 ymin: 35 xmax: -119 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   585 0100000US US    United States (((-119 35, -120 35, -120 36, -1…     246.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -119 ymin: 35 xmax: -118 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   586 0100000US US    United States (((-118 35, -119 35, -119 36, -1…    1128.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -118 ymin: 35 xmax: -117 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   587 0100000US US    United States (((-117 35, -118 35, -118 36, -1…     908.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -117 ymin: 35 xmax: -116 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   588 0100000US US    United States (((-116 35, -117 35, -117 36, -1…     671.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -116 ymin: 35 xmax: -115 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   589 0100000US US    United States (((-115 35, -116 35, -116 36, -1…    1108.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -115 ymin: 35 xmax: -114 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   590 0100000US US    United States (((-114 35, -115 35, -115 36, -1…     826.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -114 ymin: 35 xmax: -113 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   591 0100000US US    United States (((-113 35, -114 35, -114 36, -1…    1453.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -113 ymin: 35 xmax: -112 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   592 0100000US US    United States (((-112 35, -113 35, -113 36, -1…    1806.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -112 ymin: 35 xmax: -111 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   593 0100000US US    United States (((-111 35, -112 35, -112 36, -1…    1833.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -111 ymin: 35 xmax: -110 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   594 0100000US US    United States (((-110 35, -111 35, -111 36, -1…    1696.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -110 ymin: 35 xmax: -109 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   595 0100000US US    United States (((-109 35, -110 35, -110 36, -1…    1977.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -109 ymin: 35 xmax: -108 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   596 0100000US US    United States (((-108 35, -109 35, -109 36, -1…    2147.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -108 ymin: 35 xmax: -107 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   597 0100000US US    United States (((-107 35, -108 35, -108 36, -1…    2087.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -107 ymin: 35 xmax: -106 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   598 0100000US US    United States (((-106 35, -107 35, -107 36, -1…    1984.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -106 ymin: 35 xmax: -105 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   599 0100000US US    United States (((-105 35, -106 35, -106 36, -1…    2184.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -105 ymin: 35 xmax: -104 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   600 0100000US US    United States (((-104 35, -105 35, -105 36, -1…    1628.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -104 ymin: 35 xmax: -103 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   601 0100000US US    United States (((-103 35, -104 35, -104 36, -1…    1320.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -103 ymin: 35 xmax: -102 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   602 0100000US US    United States (((-102 35, -103 35, -103 36, -1…    1162.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -102 ymin: 35 xmax: -101 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   603 0100000US US    United States (((-101 35, -102 35, -102 36, -1…    1005.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -101 ymin: 35 xmax: -100 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   604 0100000US US    United States (((-100 35, -101 35, -101 36, -1…     804.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100 ymin: 35 xmax: -99 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   605 0100000US US    United States (((-99 35, -100 35, -100 36, -99…     593.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 35 xmax: -98 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   606 0100000US US    United States (((-98 35, -99 35, -99 36, -98 3…     456.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 35 xmax: -97 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   607 0100000US US    United States (((-97 35, -98 35, -98 36, -97 3…     347.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 35 xmax: -96 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   608 0100000US US    United States (((-96 35, -97 35, -97 36, -96 3…     265.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -96 ymin: 35 xmax: -95 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   609 0100000US US    United States (((-95 35, -96 35, -96 36, -95 3…     204.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -95 ymin: 35 xmax: -94 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   610 0100000US US    United States (((-94 35, -95 35, -95 36, -94 3…     258.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -94 ymin: 35 xmax: -93 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   611 0100000US US    United States (((-93 35, -94 35, -94 36, -93 3…     317.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -93 ymin: 35 xmax: -92 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   612 0100000US US    United States (((-92 35, -93 35, -93 36, -92 3…     246.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -92 ymin: 35 xmax: -91 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   613 0100000US US    United States (((-91 35, -92 35, -92 36, -91 3…     111.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -91 ymin: 35 xmax: -90 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   614 0100000US US    United States (((-90 35, -91 35, -91 36, -90 3…     72.8
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -90 ymin: 35 xmax: -89 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   615 0100000US US    United States (((-89 35, -90 35, -90 36, -89 3…     105.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -89 ymin: 35 xmax: -88 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   616 0100000US US    United States (((-88 35, -89 35, -89 36, -88 3…     148.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -88 ymin: 35 xmax: -87 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   617 0100000US US    United States (((-87 35, -88 35, -88 36, -87 3…     236.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -87 ymin: 35 xmax: -86 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   618 0100000US US    United States (((-86 35, -87 35, -87 36, -86 3…     263.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -86 ymin: 35 xmax: -85 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   619 0100000US US    United States (((-85 35, -86 35, -86 36, -85 3…     417.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -85 ymin: 35 xmax: -84 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   620 0100000US US    United States (((-84 35, -85 35, -85 36, -84 3…     372.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -84 ymin: 35 xmax: -83 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   621 0100000US US    United States (((-83 35, -84 35, -84 36, -83 3…     789.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -83 ymin: 35 xmax: -82 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   622 0100000US US    United States (((-82 35, -83 35, -83 36, -82 3…     745.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 35 xmax: -81 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   623 0100000US US    United States (((-81 35, -82 35, -82 36, -81 3…     327.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 35 xmax: -80 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   624 0100000US US    United States (((-80 35, -81 35, -81 36, -80 3…     210.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -80 ymin: 35 xmax: -79 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   625 0100000US US    United States (((-79 35, -80 35, -80 36, -79 3…     148.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -79 ymin: 35 xmax: -78 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   626 0100000US US    United States (((-78 35, -79 35, -79 36, -78 3…     69.4
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -78 ymin: 35 xmax: -77 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   627 0100000US US    United States (((-77 35, -78 35, -78 36, -77 3…     22.6
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -77 ymin: 35 xmax: -76 ymax: 36
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   628 0100000US US    United States (((-76 35.06944, -76.01314 35.06…     6.26
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -76 ymin: 35.06944 xmax: -75.45866 ymax: 36.00095
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   629 0100000US US    United States (((-75.64751 36.00095, -75.56979…     4.14
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -122.1831 ymin: 36.95115 xmax: -122 ymax: 37.00063
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   640 0100000US US    United States (((-122 36.95846, -122.0272 36.9…     86.8
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -122 ymin: 36 xmax: -121 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   641 0100000US US    United States (((-121.518 36.00104, -121.5319 …     413.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -121 ymin: 36 xmax: -120 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   642 0100000US US    United States (((-120 36, -121 36, -121 37, -1…     321.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -120 ymin: 36 xmax: -119 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   643 0100000US US    United States (((-119 36, -120 36, -120 37, -1…     213.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -119 ymin: 36 xmax: -118 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   644 0100000US US    United States (((-118 36, -119 36, -119 37, -1…    2119.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -118 ymin: 36 xmax: -117 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   645 0100000US US    United States (((-117 36, -118 36, -118 37, -1…    1269.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -117 ymin: 36 xmax: -116 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   646 0100000US US    United States (((-116 36, -117 36, -117 37, -1…     895.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -116 ymin: 36 xmax: -115 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   647 0100000US US    United States (((-115 36, -116 36, -116 37, -1…    1332.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -115 ymin: 36 xmax: -114 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   648 0100000US US    United States (((-114 36, -115 36, -115 37, -1…     740.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -114 ymin: 36 xmax: -113 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   649 0100000US US    United States (((-113 36, -114 36, -114 37, -1…    1440.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -113 ymin: 36 xmax: -112 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   650 0100000US US    United States (((-112 36, -113 36, -113 37, -1…    1766.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -112 ymin: 36 xmax: -111 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   651 0100000US US    United States (((-111 36, -112 36, -112 37, -1…    1650.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -111 ymin: 36 xmax: -110 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   652 0100000US US    United States (((-110 36, -111 36, -111 37, -1…    1899.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -110 ymin: 36 xmax: -109 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   653 0100000US US    United States (((-109 36, -110 36, -110 37, -1…    1870.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -109 ymin: 36 xmax: -108 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   654 0100000US US    United States (((-108 36, -109 36, -109 37, -1…    1790.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -108 ymin: 36 xmax: -107 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   655 0100000US US    United States (((-107 36, -108 36, -108 37, -1…    2050.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -107 ymin: 36 xmax: -106 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   656 0100000US US    United States (((-106 36, -107 36, -107 37, -1…    2449.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -106 ymin: 36 xmax: -105 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   657 0100000US US    United States (((-105 36, -106 36, -106 37, -1…    2594.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -105 ymin: 36 xmax: -104 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   658 0100000US US    United States (((-104 36, -105 36, -105 37, -1…    2028.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -104 ymin: 36 xmax: -103 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   659 0100000US US    United States (((-103 36, -104 36, -104 37, -1…    1668.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -103 ymin: 36 xmax: -102 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   660 0100000US US    United States (((-102 36, -103 36, -103 37, -1…    1245.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -102 ymin: 36 xmax: -101 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   661 0100000US US    United States (((-101 36, -102 36, -102 37, -1…     981.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -101 ymin: 36 xmax: -100 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   662 0100000US US    United States (((-100 36, -101 36, -101 37, -1…     808.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100 ymin: 36 xmax: -99 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   663 0100000US US    United States (((-99 36, -100 36, -100 37, -99…     625.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 36 xmax: -98 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   664 0100000US US    United States (((-98 36, -99 36, -99 37, -98 3…     428.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 36 xmax: -97 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   665 0100000US US    United States (((-97 36, -98 36, -98 37, -97 3…     326.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 36 xmax: -96 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   666 0100000US US    United States (((-96 36, -97 36, -97 37, -96 3…     282.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -96 ymin: 36 xmax: -95 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   667 0100000US US    United States (((-95 36, -96 36, -96 37, -95 3…     223.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -95 ymin: 36 xmax: -94 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   668 0100000US US    United States (((-94 36, -95 36, -95 37, -94 3…     334.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -94 ymin: 36 xmax: -93 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   669 0100000US US    United States (((-93 36, -94 36, -94 37, -93 3…     393.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -93 ymin: 36 xmax: -92 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   670 0100000US US    United States (((-92 36, -93 36, -93 37, -92 3…     282.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -92 ymin: 36 xmax: -91 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   671 0100000US US    United States (((-91 36, -92 36, -92 37, -91 3…     224.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -91 ymin: 36 xmax: -90 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   672 0100000US US    United States (((-90 36, -91 36, -91 37, -90 3…     113.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -90 ymin: 36 xmax: -89 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   673 0100000US US    United States (((-89 36, -90 36, -90 37, -89 3…     94.1
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -89 ymin: 36 xmax: -88 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   674 0100000US US    United States (((-88 36, -89 36, -89 37, -88 3…     135.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -88 ymin: 36 xmax: -87 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   675 0100000US US    United States (((-87 36, -88 36, -88 37, -87 3…     179.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -87 ymin: 36 xmax: -86 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   676 0100000US US    United States (((-86 36, -87 36, -87 37, -86 3…     201.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -86 ymin: 36 xmax: -85 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   677 0100000US US    United States (((-85 36, -86 36, -86 37, -85 3…     298.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -85 ymin: 36 xmax: -84 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   678 0100000US US    United States (((-84 36, -85 36, -85 37, -84 3…     419.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -84 ymin: 36 xmax: -83 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   679 0100000US US    United States (((-83 36, -84 36, -84 37, -83 3…     449.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -83 ymin: 36 xmax: -82 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   680 0100000US US    United States (((-82 36, -83 36, -83 37, -82 3…     622.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 36 xmax: -81 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   681 0100000US US    United States (((-81 36, -82 36, -82 37, -81 3…     810.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 36 xmax: -80 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   682 0100000US US    United States (((-80 36, -81 36, -81 37, -80 3…     466.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -80 ymin: 36 xmax: -79 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   683 0100000US US    United States (((-79 36, -80 36, -80 37, -79 3…     219.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -79 ymin: 36 xmax: -78 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   684 0100000US US    United States (((-78 36, -79 36, -79 37, -78 3…     123.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -78 ymin: 36 xmax: -77 ymax: 37
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   685 0100000US US    United States (((-77 36, -78 36, -78 37, -77 3…     43.5
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -77 ymin: 36 xmax: -76 ymax: 37.00089
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   686 0100000US US    United States (((-76.30379 37.00089, -76.28097…     9.82
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -76 ymin: 36 xmax: -75.64751 ymax: 36.92249
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   687 0100000US US    United States (((-76 36.92249, -75.99625 36.92…     2.54
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -122.9999 ymin: 37 xmax: -122 ymax: 38.00105
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   698 0100000US US    United States (((-122.4593 38.00105, -122.453 …     191.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -122 ymin: 37 xmax: -121 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   699 0100000US US    United States (((-121 37, -122 37, -122 38, -1…     264.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -121 ymin: 37 xmax: -120 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   700 0100000US US    United States (((-120 37, -121 37, -121 38, -1…     217.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -120 ymin: 37 xmax: -119 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   701 0100000US US    United States (((-119 37, -120 37, -120 38, -1…    1751.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -119 ymin: 37 xmax: -118 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   702 0100000US US    United States (((-118 37, -119 37, -119 38, -1…    2365.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -118 ymin: 37 xmax: -117 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   703 0100000US US    United States (((-117 37, -118 37, -118 38, -1…    1628.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -117 ymin: 37 xmax: -116 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   704 0100000US US    United States (((-116 37, -117 37, -117 38, -1…    1717.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -116 ymin: 37 xmax: -115 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   705 0100000US US    United States (((-115 37, -116 37, -116 38, -1…    1566.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -115 ymin: 37 xmax: -114 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   706 0100000US US    United States (((-114 37, -115 37, -115 38, -1…    1538.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -114 ymin: 37 xmax: -113 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   707 0100000US US    United States (((-113 37, -114 37, -114 38, -1…    1633.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -113 ymin: 37 xmax: -112 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   708 0100000US US    United States (((-112 37, -113 37, -113 38, -1…    2155.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -112 ymin: 37 xmax: -111 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   709 0100000US US    United States (((-111 37, -112 37, -112 38, -1…    1807.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -111 ymin: 37 xmax: -110 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   710 0100000US US    United States (((-110 37, -111 37, -111 38, -1…    1547.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -110 ymin: 37 xmax: -109 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   711 0100000US US    United States (((-109 37, -110 37, -110 38, -1…    1807.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -109 ymin: 37 xmax: -108 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   712 0100000US US    United States (((-108 37, -109 37, -109 38, -1…    2274.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -108 ymin: 37 xmax: -107 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   713 0100000US US    United States (((-107 37, -108 37, -108 38, -1…    2857.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -107 ymin: 37 xmax: -106 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   714 0100000US US    United States (((-106 37, -107 37, -107 38, -1…    2864.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -106 ymin: 37 xmax: -105 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   715 0100000US US    United States (((-105 37, -106 37, -106 38, -1…    2587.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -105 ymin: 37 xmax: -104 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   716 0100000US US    United States (((-104 37, -105 37, -105 38, -1…    1895.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -104 ymin: 37 xmax: -103 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   717 0100000US US    United States (((-103 37, -104 37, -104 38, -1…    1518.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -103 ymin: 37 xmax: -102 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   718 0100000US US    United States (((-102 37, -103 37, -103 38, -1…    1260.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -102 ymin: 37 xmax: -101 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   719 0100000US US    United States (((-101 37, -102 37, -102 38, -1…     979.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -101 ymin: 37 xmax: -100 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   720 0100000US US    United States (((-100 37, -101 37, -101 38, -1…     820.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -100 ymin: 37 xmax: -99 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   721 0100000US US    United States (((-99 37, -100 37, -100 38, -99…     662.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -99 ymin: 37 xmax: -98 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   722 0100000US US    United States (((-98 37, -99 37, -99 38, -98 3…     514.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98 ymin: 37 xmax: -97 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   723 0100000US US    United States (((-97 37, -98 37, -98 38, -97 3…     401.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -97 ymin: 37 xmax: -96 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   724 0100000US US    United States (((-96 37, -97 37, -97 38, -96 3…     370.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -96 ymin: 37 xmax: -95 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   725 0100000US US    United States (((-95 37, -96 37, -96 38, -95 3…     283.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -95 ymin: 37 xmax: -94 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   726 0100000US US    United States (((-94 37, -95 37, -95 38, -94 3…     284.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -94 ymin: 37 xmax: -93 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   727 0100000US US    United States (((-93 37, -94 37, -94 38, -93 3…     334.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -93 ymin: 37 xmax: -92 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   728 0100000US US    United States (((-92 37, -93 37, -93 38, -92 3…     370.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -92 ymin: 37 xmax: -91 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   729 0100000US US    United States (((-91 37, -92 37, -92 38, -91 3…     333.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -91 ymin: 37 xmax: -90 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   730 0100000US US    United States (((-90 37, -91 37, -91 38, -90 3…     249.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -90 ymin: 37 xmax: -89 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   731 0100000US US    United States (((-89 37, -90 37, -90 38, -89 3…     139.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -89 ymin: 37 xmax: -88 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   732 0100000US US    United States (((-88 37, -89 37, -89 38, -88 3…     135.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -88 ymin: 37 xmax: -87 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   733 0100000US US    United States (((-87 37, -88 37, -88 38, -87 3…     135.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -87 ymin: 37 xmax: -86 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   734 0100000US US    United States (((-86 37, -87 37, -87 38, -86 3…     180.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -86 ymin: 37 xmax: -85 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   735 0100000US US    United States (((-85 37, -86 37, -86 38, -85 3…     233.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -85 ymin: 37 xmax: -84 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   736 0100000US US    United States (((-84 37, -85 37, -85 38, -84 3…     308.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -84 ymin: 37 xmax: -83 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   737 0100000US US    United States (((-83 37, -84 37, -84 38, -83 3…     348.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -83 ymin: 37 xmax: -82 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   738 0100000US US    United States (((-82 37, -83 37, -83 38, -82 3…     425.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -82 ymin: 37 xmax: -81 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   739 0100000US US    United States (((-81 37, -82 37, -82 38, -81 3…     669.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -81 ymin: 37 xmax: -80 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   740 0100000US US    United States (((-80 37, -81 37, -81 38, -80 3…     690.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -80 ymin: 37 xmax: -79 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   741 0100000US US    United States (((-79 37, -80 37, -80 38, -79 3…     399.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -79 ymin: 37 xmax: -78 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   742 0100000US US    United States (((-78 37, -79 37, -79 38, -78 3…     167.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -78 ymin: 37 xmax: -77 ymax: 38
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   743 0100000US US    United States (((-77 37, -78 37, -78 38, -77 3…     60.9
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -77 ymin: 37 xmax: -76 ymax: 38.00105
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   744 0100000US US    United States (((-76 37.19421, -76.02348 37.28…     19.4
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -76 ymin: 37.08961 xmax: -75.26152 ymax: 38.00082
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   745 0100000US US    United States (((-75.26152 38.00082, -75.33862…     7.02
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -123.7329 ymin: 38.00002 xmax: -123 ymax: 39.00089
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   755 0100000US US    United States (((-123 38.29149, -123.0031 38.2…     324.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -123 ymin: 38 xmax: -122 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   756 0100000US US    United States (((-122.3686 38.00099, -122.3689…     266.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -122 ymin: 38 xmax: -121 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   757 0100000US US    United States (((-121 38, -122 38, -122 39, -1…     43.0
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -121 ymin: 38 xmax: -120 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   758 0100000US US    United States (((-120 38, -121 38, -121 39, -1…    1111.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -120 ymin: 38 xmax: -119 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   759 0100000US US    United States (((-119 38, -120 38, -120 39, -1…    2211.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -119 ymin: 38 xmax: -118 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   760 0100000US US    United States (((-118 38, -119 38, -119 39, -1…    1789.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -118 ymin: 38 xmax: -117 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   761 0100000US US    United States (((-117 38, -118 38, -118 39, -1…    1886.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -117 ymin: 38 xmax: -116 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   762 0100000US US    United States (((-116 38, -117 38, -117 39, -1…    2071.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -116 ymin: 38 xmax: -115 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   763 0100000US US    United States (((-115 38, -116 38, -116 39, -1…    1809.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -115 ymin: 38 xmax: -114 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   764 0100000US US    United States (((-114 38, -115 38, -115 39, -1…    2006.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -114 ymin: 38 xmax: -113 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   765 0100000US US    United States (((-113 38, -114 38, -114 39, -1…    1790.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -113 ymin: 38 xmax: -112 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   766 0100000US US    United States (((-112 38, -113 38, -113 39, -1…    2045.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -112 ymin: 38 xmax: -111 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   767 0100000US US    United States (((-111 38, -112 38, -112 39, -1…    2284.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -111 ymin: 38 xmax: -110 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   768 0100000US US    United States (((-110 38, -111 38, -111 39, -1…    1620.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -110 ymin: 38 xmax: -109 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   769 0100000US US    United States (((-109 38, -110 38, -110 39, -1…    1732.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -109 ymin: 38 xmax: -108 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   770 0100000US US    United States (((-108 38, -109 38, -109 39, -1…    2128.
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -108 ymin: 38 xmax: -107 ymax: 39
+Geodetic CRS:  WGS 84
+# A tibble: 1 × 6
+     ID AFFGEOID  GEOID NAME                                   geometry altitude
+* <int> <chr>     <chr> <chr>                        <MULTIPOLYGON [°]>    <dbl>
+1   771 0100000US US    United States (((-107 38, -108 38, -108 39, -1…    2608.
+slurmstepd: error: *** JOB 57853918 ON c0806 CANCELLED AT 2025-01-24T20:26:36 DUE TO TIME LIMIT ***

@@ -1,0 +1,26 @@
+terra 1.8.5
+Loading required package: abind
+Loading required package: sf
+Linking to GEOS 3.7.2, GDAL 3.0.4, PROJ 6.3.2; sf_use_s2() is TRUE
+Spherical geometry (s2) switched off
+[1] "Read polygon: /proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/GEODATA/s_18mr25/CONUS.shp"
+Reading layer `CONUS' from data source 
+  `/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/GEODATA/s_18mr25/CONUS.shp' 
+  using driver `ESRI Shapefile'
+Simple feature collection with 1 feature and 5 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -124.7626 ymin: 24.52105 xmax: -66.94983 ymax: 49.38842
+Geodetic CRS:  NAD83
+[1] "Convert the polygon into a vector feature"
+[1] "Crop and mask the the input grid based on the polygon"
+[1] "Convert raster to polygon to extract the grid"
+Folder created at: /proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/Grid/00_CONUS_S5P_TROPOMI_L3_1km_grid 
+Writing layer `01_CONUS_S5P_TROPOMI_L3_1km_grid' to data source 
+  `/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/Grid/00_CONUS_S5P_TROPOMI_L3_1km_grid/' using driver `ESRI Shapefile'
+Writing 10100565 features with 1 fields and geometry type Polygon.
+Warning message:
+In abbreviate_shapefile_names(obj) :
+  Field names abbreviated for ESRI Shapefile driver
+[1] "Process: /proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/Grid/00_CONUS_S5P_TROPOMI_L3_1km_grid/01_CONUS_S5P_TROPOMI_L3_1km_grid.shp"
+[1] "Complete!"

@@ -1,0 +1,2091 @@
+Linking to GEOS 3.7.2, GDAL 3.0.4, PROJ 6.3.2; sf_use_s2() is TRUE
+[1] "Read all files in the list of files."
+[1] "1 / 519"
+[1] "Process lat/lon: 37.10258,-107.870219"
+  latitude   longitude
+1 37.10258 -107.870219
+[1] "2 / 519"
+[1] "Process lat/lon: 29.901036,-95.326137"
+   latitude  longitude
+1 29.901036 -95.326137
+[1] "3 / 519"
+[1] "Process lat/lon: 39.965278,-76.699444"
+   latitude  longitude
+1 39.965278 -76.699444
+[1] "4 / 519"
+[1] "Process lat/lon: 37.936013,-122.026154"
+   latitude   longitude
+1 37.936013 -122.026154
+[1] "5 / 519"
+[1] "Process lat/lon: 30.356339,-81.635396"
+   latitude  longitude
+1 30.356339 -81.635396
+[1] "6 / 519"
+[1] "Process lat/lon: 28.596389,-81.3625"
+   latitude longitude
+1 28.596389  -81.3625
+[1] "7 / 519"
+[1] "Process lat/lon: 27.785866,-82.739875"
+   latitude  longitude
+1 27.785866 -82.739875
+[1] "8 / 519"
+[1] "Process lat/lon: 29.670025,-95.128508"
+   latitude  longitude
+1 29.670025 -95.128508
+[1] "9 / 519"
+[1] "Process lat/lon: 40.67025,-74.126081"
+  latitude  longitude
+1 40.67025 -74.126081
+[1] "10 / 519"
+[1] "Process lat/lon: 33.219069,-97.196284"
+   latitude  longitude
+1 33.219069 -97.196284
+[1] "11 / 519"
+[1] "Process lat/lon: 40.462182,-74.429439"
+   latitude  longitude
+1 40.462182 -74.429439
+[1] "12 / 519"
+[1] "Process lat/lon: 40.64144,-74.208365"
+  latitude  longitude
+1 40.64144 -74.208365
+[1] "13 / 519"
+[1] "Process lat/lon: 32.65637,-97.088598"
+  latitude  longitude
+1 32.65637 -97.088598
+[1] "14 / 519"
+[1] "Process lat/lon: 32.378696,-94.711813"
+   latitude  longitude
+1 32.378696 -94.711813
+[1] "15 / 519"
+[1] "Process lat/lon: 37.97231,-122.520004"
+  latitude   longitude
+1 37.97231 -122.520004
+[1] "16 / 519"
+[1] "Process lat/lon: 30.461981,-91.179219"
+   latitude  longitude
+1 30.461981 -91.179219
+[1] "17 / 519"
+[1] "Process lat/lon: 30.700895,-91.056068"
+   latitude  longitude
+1 30.700895 -91.056068
+[1] "18 / 519"
+[1] "Process lat/lon: 29.758889,-95.079444"
+   latitude  longitude
+1 29.758889 -95.079444
+[1] "19 / 519"
+[1] "Process lat/lon: 30.221255,-91.315418"
+   latitude  longitude
+1 30.221255 -91.315418
+[1] "20 / 519"
+[1] "Process lat/lon: 30.315406,-90.811383"
+   latitude  longitude
+1 30.315406 -90.811383
+[1] "21 / 519"
+[1] "Process lat/lon: 46.933754,-96.85535"
+   latitude longitude
+1 46.933754 -96.85535
+[1] "22 / 519"
+[1] "Process lat/lon: 47.298611,-101.766944"
+   latitude   longitude
+1 47.298611 -101.766944
+[1] "23 / 519"
+[1] "Process lat/lon: 31.765685,-106.455227"
+   latitude   longitude
+1 31.765685 -106.455227
+[1] "24 / 519"
+[1] "Process lat/lon: 47.185833,-101.428056"
+   latitude   longitude
+1 47.185833 -101.428056
+[1] "25 / 519"
+[1] "Process lat/lon: 32.631242,-117.059088"
+   latitude   longitude
+1 32.631242 -117.059088
+[1] "26 / 519"
+[1] "Process lat/lon: 39.92002,-77.30968"
+  latitude longitude
+1 39.92002 -77.30968
+[1] "27 / 519"
+[1] "Process lat/lon: 37.482934,-122.20337"
+   latitude  longitude
+1 37.482934 -122.20337
+[1] "28 / 519"
+[1] "Process lat/lon: 42.719,-109.753"
+  latitude longitude
+1   42.719  -109.753
+[1] "29 / 519"
+[1] "Process lat/lon: 34.46245,-120.02551"
+  latitude  longitude
+1 34.46245 -120.02551
+[1] "30 / 519"
+[1] "Process lat/lon: 34.52744,-120.1965"
+  latitude longitude
+1 34.52744 -120.1965
+[1] "31 / 519"
+[1] "Process lat/lon: 34.403052,-119.457914"
+   latitude   longitude
+1 34.403052 -119.457914
+[1] "32 / 519"
+[1] "Process lat/lon: 34.48974,-120.04692"
+  latitude  longitude
+1 34.48974 -120.04692
+[1] "33 / 519"
+[1] "Process lat/lon: 40.747796,-80.316442"
+   latitude  longitude
+1 40.747796 -80.316442
+[1] "34 / 519"
+[1] "Process lat/lon: 43.081667,-107.549444"
+   latitude   longitude
+1 43.081667 -107.549444
+[1] "35 / 519"
+[1] "Process lat/lon: 40.309722,-78.915"
+   latitude longitude
+1 40.309722   -78.915
+[1] "36 / 519"
+[1] "Process lat/lon: 39.835556,-75.3725"
+   latitude longitude
+1 39.835556  -75.3725
+[1] "37 / 519"
+[1] "Process lat/lon: 42.14175,-80.038611"
+  latitude  longitude
+1 42.14175 -80.038611
+[1] "38 / 519"
+[1] "Process lat/lon: 41.442778,-75.623056"
+   latitude  longitude
+1 41.442778 -75.623056
+[1] "39 / 519"
+[1] "Process lat/lon: 41.750556,-109.788333"
+   latitude   longitude
+1 41.750556 -109.788333
+[1] "40 / 519"
+[1] "Process lat/lon: 40.628056,-75.341111"
+   latitude  longitude
+1 40.628056 -75.341111
+[1] "41 / 519"
+[1] "Process lat/lon: 40.146667,-79.902222"
+   latitude  longitude
+1 40.146667 -79.902222
+[1] "42 / 519"
+[1] "Process lat/lon: 47.5812,-103.2995"
+  latitude longitude
+1  47.5812 -103.2995
+[1] "43 / 519"
+[1] "Process lat/lon: 29.275381,-98.311692"
+   latitude  longitude
+1 29.275381 -98.311692
+[1] "44 / 519"
+[1] "Process lat/lon: 44.097074,-105.343164"
+   latitude   longitude
+1 44.097074 -105.343164
+[1] "45 / 519"
+[1] "Process lat/lon: 29.520443,-95.392509"
+   latitude  longitude
+1 29.520443 -95.392509
+[1] "46 / 519"
+[1] "Process lat/lon: 29.695729,-95.499219"
+   latitude  longitude
+1 29.695729 -95.499219
+[1] "47 / 519"
+[1] "Process lat/lon: 29.583047,-95.015544"
+   latitude  longitude
+1 29.583047 -95.015544
+[1] "48 / 519"
+[1] "Process lat/lon: 32.669001,-94.167468"
+   latitude  longitude
+1 32.669001 -94.167468
+[1] "49 / 519"
+[1] "Process lat/lon: 32.344027,-95.415754"
+   latitude  longitude
+1 32.344027 -95.415754
+[1] "50 / 519"
+[1] "Process lat/lon: 34.1365,-117.92391"
+  latitude  longitude
+1  34.1365 -117.92391
+[1] "51 / 519"
+[1] "Process lat/lon: 32.80581,-97.356529"
+  latitude  longitude
+1 32.80581 -97.356529
+[1] "52 / 519"
+[1] "Process lat/lon: 37.13678,-107.62863"
+  latitude  longitude
+1 37.13678 -107.62863
+[1] "53 / 519"
+[1] "Process lat/lon: 30.041238,-90.272826"
+   latitude  longitude
+1 30.041238 -90.272826
+[1] "54 / 519"
+[1] "Process lat/lon: 35.1343,-106.5852"
+  latitude longitude
+1  35.1343 -106.5852
+[1] "55 / 519"
+[1] "Process lat/lon: 34.756189,-92.281296"
+   latitude  longitude
+1 34.756189 -92.281296
+[1] "56 / 519"
+[1] "Process lat/lon: 34.63782,-120.4575"
+  latitude longitude
+1 34.63782 -120.4575
+[1] "57 / 519"
+[1] "Process lat/lon: 32.919206,-96.808498"
+   latitude  longitude
+1 32.919206 -96.808498
+[1] "58 / 519"
+[1] "Process lat/lon: 30.350302,-95.425128"
+   latitude  longitude
+1 30.350302 -95.425128
+[1] "59 / 519"
+[1] "Process lat/lon: 47.400624,-101.929099"
+   latitude   longitude
+1 47.400624 -101.929099
+[1] "60 / 519"
+[1] "Process lat/lon: 44.087397,-103.273777"
+   latitude   longitude
+1 44.087397 -103.273777
+[1] "61 / 519"
+[1] "Process lat/lon: 40.811389,-77.877028"
+   latitude  longitude
+1 40.811389 -77.877028
+[1] "62 / 519"
+[1] "Process lat/lon: 27.350278,-82.479722"
+   latitude  longitude
+1 27.350278 -82.479722
+[1] "63 / 519"
+[1] "Process lat/lon: 30.036422,-94.071061"
+   latitude  longitude
+1 30.036422 -94.071061
+[1] "64 / 519"
+[1] "Process lat/lon: 30.085263,-93.761341"
+   latitude  longitude
+1 30.085263 -93.761341
+[1] "65 / 519"
+[1] "Process lat/lon: 41.677667,-108.024835"
+   latitude   longitude
+1 41.677667 -108.024835
+[1] "66 / 519"
+[1] "Process lat/lon: 36.205055,-86.74472"
+   latitude longitude
+1 36.205055 -86.74472
+[1] "67 / 519"
+[1] "Process lat/lon: 33.153088,-96.115572"
+   latitude  longitude
+1 33.153088 -96.115572
+[1] "68 / 519"
+[1] "Process lat/lon: 41.492117,-81.678449"
+   latitude  longitude
+1 41.492117 -81.678449
+[1] "69 / 519"
+[1] "Process lat/lon: 32.482083,-97.026899"
+   latitude  longitude
+1 32.482083 -97.026899
+[1] "70 / 519"
+[1] "Process lat/lon: 32.820061,-96.860117"
+   latitude  longitude
+1 32.820061 -96.860117
+[1] "71 / 519"
+[1] "Process lat/lon: 45.668052,-106.519466"
+   latitude   longitude
+1 45.668052 -106.519466
+[1] "72 / 519"
+[1] "Process lat/lon: 45.603053,-106.464744"
+   latitude   longitude
+1 45.603053 -106.464744
+[1] "73 / 519"
+[1] "Process lat/lon: 45.648328,-106.557247"
+   latitude   longitude
+1 45.648328 -106.557247
+[1] "74 / 519"
+[1] "Process lat/lon: 37.687526,-121.784217"
+   latitude   longitude
+1 37.687526 -121.784217
+[1] "75 / 519"
+[1] "Process lat/lon: 38.006311,-121.641918"
+   latitude   longitude
+1 38.006311 -121.641918
+[1] "76 / 519"
+[1] "Process lat/lon: 41.373097,-111.042376"
+   latitude   longitude
+1 41.373097 -111.042376
+[1] "77 / 519"
+[1] "Process lat/lon: 37.9604,-122.356811"
+  latitude   longitude
+1  37.9604 -122.356811
+[1] "78 / 519"
+[1] "Process lat/lon: 37.765946,-122.399044"
+   latitude   longitude
+1 37.765946 -122.399044
+[1] "79 / 519"
+[1] "Process lat/lon: 38.102507,-122.237976"
+   latitude   longitude
+1 38.102507 -122.237976
+[1] "80 / 519"
+[1] "Process lat/lon: 29.863957,-94.317802"
+   latitude  longitude
+1 29.863957 -94.317802
+[1] "81 / 519"
+[1] "Process lat/lon: 33.8025,-118.22"
+  latitude longitude
+1  33.8025   -118.22
+[1] "82 / 519"
+[1] "Process lat/lon: 32.79222,-115.56306"
+  latitude  longitude
+1 32.79222 -115.56306
+[1] "83 / 519"
+[1] "Process lat/lon: 29.043759,-95.472946"
+   latitude  longitude
+1 29.043759 -95.472946
+[1] "84 / 519"
+[1] "Process lat/lon: 37.348497,-121.894898"
+   latitude   longitude
+1 37.348497 -121.894898
+[1] "85 / 519"
+[1] "Process lat/lon: 30.500642,-91.213556"
+   latitude  longitude
+1 30.500642 -91.213556
+[1] "86 / 519"
+[1] "Process lat/lon: 43.74561,-101.941218"
+  latitude   longitude
+1 43.74561 -101.941218
+[1] "87 / 519"
+[1] "Process lat/lon: 29.767997,-95.220582"
+   latitude  longitude
+1 29.767997 -95.220582
+[1] "88 / 519"
+[1] "Process lat/lon: 48.64193,-102.4018"
+  latitude longitude
+1 48.64193 -102.4018
+[1] "89 / 519"
+[1] "Process lat/lon: 32.676451,-96.87206"
+   latitude longitude
+1 32.676451 -96.87206
+[1] "90 / 519"
+[1] "Process lat/lon: 33.45797,-112.04659"
+  latitude  longitude
+1 33.45797 -112.04659
+[1] "91 / 519"
+[1] "Process lat/lon: 42.529999,-108.720003"
+   latitude   longitude
+1 42.529999 -108.720003
+[1] "92 / 519"
+[1] "Process lat/lon: 33.48378,-112.14256"
+  latitude  longitude
+1 33.48378 -112.14256
+[1] "93 / 519"
+[1] "Process lat/lon: 44.6522,-105.2903"
+  latitude longitude
+1  44.6522 -105.2903
+[1] "94 / 519"
+[1] "Process lat/lon: 33.36985,-112.62068"
+  latitude  longitude
+1 33.36985 -112.62068
+[1] "95 / 519"
+[1] "Process lat/lon: 34.669739,-118.130511"
+   latitude   longitude
+1 34.669739 -118.130511
+[1] "96 / 519"
+[1] "Process lat/lon: 36.8071,-108.69523"
+  latitude  longitude
+1  36.8071 -108.69523
+[1] "97 / 519"
+[1] "Process lat/lon: 34.89405,-117.02471"
+  latitude  longitude
+1 34.89405 -117.02471
+[1] "98 / 519"
+[1] "Process lat/lon: 34.510961,-117.32554"
+   latitude  longitude
+1 34.510961 -117.32554
+[1] "99 / 519"
+[1] "Process lat/lon: 35.77446,-117.3721"
+  latitude longitude
+1 35.77446 -117.3721
+[1] "100 / 519"
+[1] "Process lat/lon: 36.694261,-121.623271"
+   latitude   longitude
+1 36.694261 -121.623271
+[1] "101 / 519"
+[1] "Process lat/lon: 40.816,-73.902"
+  latitude longitude
+1   40.816   -73.902
+[1] "102 / 519"
+[1] "Process lat/lon: 42.869824,-109.87076"
+   latitude  longitude
+1 42.869824 -109.87076
+[1] "103 / 519"
+[1] "Process lat/lon: 30.378287,-88.53393"
+   latitude longitude
+1 30.378287 -88.53393
+[1] "104 / 519"
+[1] "Process lat/lon: 30.229653,-90.965628"
+   latitude  longitude
+1 30.229653 -90.965628
+[1] "105 / 519"
+[1] "Process lat/lon: 30.262347,-93.284906"
+   latitude  longitude
+1 30.262347 -93.284906
+[1] "106 / 519"
+[1] "Process lat/lon: 46.825425,-100.76821"
+   latitude  longitude
+1 46.825425 -100.76821
+[1] "107 / 519"
+[1] "Process lat/lon: 41.386944,-107.616667"
+   latitude   longitude
+1 41.386944 -107.616667
+[1] "108 / 519"
+[1] "Process lat/lon: 34.44551,-119.8284"
+  latitude longitude
+1 34.44551 -119.8284
+[1] "109 / 519"
+[1] "Process lat/lon: 38.895572,-76.958072"
+   latitude  longitude
+1 38.895572 -76.958072
+[1] "110 / 519"
+[1] "Process lat/lon: 29.686389,-95.294722"
+   latitude  longitude
+1 29.686389 -95.294722
+[1] "111 / 519"
+[1] "Process lat/lon: 38.921847,-77.013178"
+   latitude  longitude
+1 38.921847 -77.013178
+[1] "112 / 519"
+[1] "Process lat/lon: 37.34438,-77.25925"
+  latitude longitude
+1 37.34438 -77.25925
+[1] "113 / 519"
+[1] "Process lat/lon: 41.606662,-87.304943"
+   latitude  longitude
+1 41.606662 -87.304943
+[1] "114 / 519"
+[1] "Process lat/lon: 39.021881,-84.47445"
+   latitude longitude
+1 39.021881 -84.47445
+[1] "115 / 519"
+[1] "Process lat/lon: 38.47753,-78.81952"
+  latitude longitude
+1 38.47753 -78.81952
+[1] "116 / 519"
+[1] "Process lat/lon: 37.103733,-76.387017"
+   latitude  longitude
+1 37.103733 -76.387017
+[1] "117 / 519"
+[1] "Process lat/lon: 37.47689,-97.366399"
+  latitude  longitude
+1 37.47689 -97.366399
+[1] "118 / 519"
+[1] "Process lat/lon: 39.104686,-94.57079"
+   latitude longitude
+1 39.104686 -94.57079
+[1] "119 / 519"
+[1] "Process lat/lon: 31.787885,-106.683324"
+   latitude   longitude
+1 31.787885 -106.683324
+[1] "120 / 519"
+[1] "Process lat/lon: 38.970092,-77.016715"
+   latitude  longitude
+1 38.970092 -77.016715
+[1] "121 / 519"
+[1] "Process lat/lon: 26.087567,-80.111152"
+   latitude  longitude
+1 26.087567 -80.111152
+[1] "122 / 519"
+[1] "Process lat/lon: 35.40814,-94.524413"
+  latitude  longitude
+1 35.40814 -94.524413
+[1] "123 / 519"
+[1] "Process lat/lon: 41.69666,-86.214722"
+  latitude  longitude
+1 41.69666 -86.214722
+[1] "124 / 519"
+[1] "Process lat/lon: 40.086944,-108.761389"
+   latitude   longitude
+1 40.086944 -108.761389
+[1] "125 / 519"
+[1] "Process lat/lon: 44.4762,-73.2106"
+  latitude longitude
+1  44.4762  -73.2106
+[1] "126 / 519"
+[1] "Process lat/lon: 31.796218,-106.584434"
+   latitude   longitude
+1 31.796218 -106.584434
+[1] "127 / 519"
+[1] "Process lat/lon: 35.614131,-97.475083"
+   latitude  longitude
+1 35.614131 -97.475083
+[1] "128 / 519"
+[1] "Process lat/lon: 40.73614,-73.82153"
+  latitude longitude
+1 40.73614 -73.82153
+[1] "129 / 519"
+[1] "Process lat/lon: 37.28342,-79.88452"
+  latitude longitude
+1 37.28342 -79.88452
+[1] "130 / 519"
+[1] "Process lat/lon: 36.809735,-107.652192"
+   latitude   longitude
+1 36.809735 -107.652192
+[1] "131 / 519"
+[1] "Process lat/lon: 34.942872,-120.435611"
+   latitude   longitude
+1 34.942872 -120.435611
+[1] "132 / 519"
+[1] "Process lat/lon: 41.7514,-87.713488"
+  latitude  longitude
+1  41.7514 -87.713488
+[1] "133 / 519"
+[1] "Process lat/lon: 41.855243,-87.75247"
+   latitude longitude
+1 41.855243 -87.75247
+[1] "134 / 519"
+[1] "Process lat/lon: 34.06659,-118.22688"
+  latitude  longitude
+1 34.06659 -118.22688
+[1] "135 / 519"
+[1] "Process lat/lon: 33.901389,-118.205"
+   latitude longitude
+1 33.901389  -118.205
+[1] "136 / 519"
+[1] "Process lat/lon: 34.01029,-118.0685"
+  latitude longitude
+1 34.01029 -118.0685
+[1] "137 / 519"
+[1] "Process lat/lon: 38.63114,-90.28115"
+  latitude longitude
+1 38.63114 -90.28115
+[1] "138 / 519"
+[1] "Process lat/lon: 34.06703,-117.7514"
+  latitude longitude
+1 34.06703 -117.7514
+[1] "139 / 519"
+[1] "Process lat/lon: 34.1326,-118.1272"
+  latitude longitude
+1  34.1326 -118.1272
+[1] "140 / 519"
+[1] "Process lat/lon: 34.38344,-118.5284"
+  latitude longitude
+1 34.38344 -118.5284
+[1] "141 / 519"
+[1] "Process lat/lon: 33.92513,-117.95264"
+  latitude  longitude
+1 33.92513 -117.95264
+[1] "142 / 519"
+[1] "Process lat/lon: 42.82231,-106.36501"
+  latitude  longitude
+1 42.82231 -106.36501
+[1] "143 / 519"
+[1] "Process lat/lon: 38.8577,-77.05922"
+  latitude longitude
+1  38.8577 -77.05922
+[1] "144 / 519"
+[1] "Process lat/lon: 39.02473,-77.48925"
+  latitude longitude
+1 39.02473 -77.48925
+[1] "145 / 519"
+[1] "Process lat/lon: 38.85287,-77.63462"
+  latitude longitude
+1 38.85287 -77.63462
+[1] "146 / 519"
+[1] "Process lat/lon: 34.14435,-117.85036"
+  latitude  longitude
+1 34.14435 -117.85036
+[1] "147 / 519"
+[1] "Process lat/lon: 36.174365,-115.13977"
+   latitude  longitude
+1 36.174365 -115.13977
+[1] "148 / 519"
+[1] "Process lat/lon: 34.05111,-118.45636"
+  latitude  longitude
+1 34.05111 -118.45636
+[1] "149 / 519"
+[1] "Process lat/lon: 33.92086,-116.85841"
+  latitude  longitude
+1 33.92086 -116.85841
+[1] "150 / 519"
+[1] "Process lat/lon: 33.85275,-116.54101"
+  latitude  longitude
+1 33.85275 -116.54101
+[1] "151 / 519"
+[1] "Process lat/lon: 33.99958,-117.41601"
+  latitude  longitude
+1 33.99958 -117.41601
+[1] "152 / 519"
+[1] "Process lat/lon: 36.270592,-115.238282"
+   latitude   longitude
+1 36.270592 -115.238282
+[1] "153 / 519"
+[1] "Process lat/lon: 33.99636,-117.4924"
+  latitude longitude
+1 33.99636 -117.4924
+[1] "154 / 519"
+[1] "Process lat/lon: 33.67649,-117.33098"
+  latitude  longitude
+1 33.67649 -117.33098
+[1] "155 / 519"
+[1] "Process lat/lon: 34.10002,-117.49201"
+  latitude  longitude
+1 34.10002 -117.49201
+[1] "156 / 519"
+[1] "Process lat/lon: 34.106678,-117.274063"
+   latitude   longitude
+1 34.106678 -117.274063
+[1] "157 / 519"
+[1] "Process lat/lon: 35.197288,-90.193141"
+   latitude  longitude
+1 35.197288 -90.193141
+[1] "158 / 519"
+[1] "Process lat/lon: 37.793624,-122.263376"
+   latitude   longitude
+1 37.793624 -122.263376
+[1] "159 / 519"
+[1] "Process lat/lon: 36.796667,-108.473138"
+   latitude   longitude
+1 36.796667 -108.473138
+[1] "160 / 519"
+[1] "Process lat/lon: 36.85555,-76.30135"
+  latitude longitude
+1 36.85555 -76.30135
+[1] "161 / 519"
+[1] "Process lat/lon: 42.876907,-78.809526"
+   latitude  longitude
+1 42.876907 -78.809526
+[1] "162 / 519"
+[1] "Process lat/lon: 36.742227,-107.977567"
+   latitude   longitude
+1 36.742227 -107.977567
+[1] "163 / 519"
+[1] "Process lat/lon: 33.521427,-86.844112"
+   latitude  longitude
+1 33.521427 -86.844112
+[1] "164 / 519"
+[1] "Process lat/lon: 32.380118,-104.262726"
+   latitude   longitude
+1 32.380118 -104.262726
+[1] "165 / 519"
+[1] "Process lat/lon: 32.204411,-110.878067"
+   latitude   longitude
+1 32.204411 -110.878067
+[1] "166 / 519"
+[1] "Process lat/lon: 32.726656,-103.122917"
+   latitude   longitude
+1 32.726656 -103.122917
+[1] "167 / 519"
+[1] "Process lat/lon: 42.3295,-71.0826"
+  latitude longitude
+1  42.3295  -71.0826
+[1] "168 / 519"
+[1] "Process lat/lon: 40.720989,-74.192892"
+   latitude  longitude
+1 40.720989 -74.192892
+[1] "169 / 519"
+[1] "Process lat/lon: 34.725352,-120.428717"
+   latitude   longitude
+1 34.725352 -120.428717
+[1] "170 / 519"
+[1] "Process lat/lon: 33.39623,-111.96799"
+  latitude  longitude
+1 33.39623 -111.96799
+[1] "171 / 519"
+[1] "Process lat/lon: 29.733726,-95.257593"
+   latitude  longitude
+1 29.733726 -95.257593
+[1] "172 / 519"
+[1] "Process lat/lon: 34.54166,-119.79146"
+  latitude  longitude
+1 34.54166 -119.79146
+[1] "173 / 519"
+[1] "Process lat/lon: 46.696431,-68.033006"
+   latitude  longitude
+1 46.696431 -68.033006
+[1] "174 / 519"
+[1] "Process lat/lon: 40.92458,-75.067815"
+  latitude  longitude
+1 40.92458 -75.067815
+[1] "175 / 519"
+[1] "Process lat/lon: 37.67696,-95.47594"
+  latitude longitude
+1 37.67696 -95.47594
+[1] "176 / 519"
+[1] "Process lat/lon: 32.175417,-96.870189"
+   latitude  longitude
+1 32.175417 -96.870189
+[1] "177 / 519"
+[1] "Process lat/lon: 40.77678,-124.17949"
+  latitude  longitude
+1 40.77678 -124.17949
+[1] "178 / 519"
+[1] "Process lat/lon: 33.7784,-84.3914"
+  latitude longitude
+1  33.7784  -84.3914
+[1] "179 / 519"
+[1] "Process lat/lon: 37.743065,-122.169935"
+   latitude   longitude
+1 37.743065 -122.169935
+[1] "180 / 519"
+[1] "Process lat/lon: 29.834167,-95.489167"
+   latitude  longitude
+1 29.834167 -95.489167
+[1] "181 / 519"
+[1] "Process lat/lon: 33.6878,-84.2905"
+  latitude longitude
+1  33.6878  -84.2905
+[1] "182 / 519"
+[1] "Process lat/lon: 37.814781,-122.282347"
+   latitude   longitude
+1 37.814781 -122.282347
+[1] "183 / 519"
+[1] "Process lat/lon: 42.385998,-83.266189"
+   latitude  longitude
+1 42.385998 -83.266189
+[1] "184 / 519"
+[1] "Process lat/lon: 39.12886,-84.50404"
+  latitude longitude
+1 39.12886 -84.50404
+[1] "185 / 519"
+[1] "Process lat/lon: 37.30389,-107.484167"
+  latitude   longitude
+1 37.30389 -107.484167
+[1] "186 / 519"
+[1] "Process lat/lon: 32.031934,-96.399141"
+   latitude  longitude
+1 32.031934 -96.399141
+[1] "187 / 519"
+[1] "Process lat/lon: 38.013333,-87.577222"
+   latitude  longitude
+1 38.013333 -87.577222
+[1] "188 / 519"
+[1] "Process lat/lon: 42.348873,-71.097163"
+   latitude  longitude
+1 42.348873 -71.097163
+[1] "189 / 519"
+[1] "Process lat/lon: 41.829495,-71.417457"
+   latitude  longitude
+1 41.829495 -71.417457
+[1] "190 / 519"
+[1] "Process lat/lon: 33.83062,-117.93845"
+  latitude  longitude
+1 33.83062 -117.93845
+[1] "191 / 519"
+[1] "Process lat/lon: 40.038889,-107.8475"
+   latitude longitude
+1 40.038889 -107.8475
+[1] "192 / 519"
+[1] "Process lat/lon: 42.263955,-71.794322"
+   latitude  longitude
+1 42.263955 -71.794322
+[1] "193 / 519"
+[1] "Process lat/lon: 38.45934,-82.64041"
+  latitude longitude
+1 38.45934 -82.64041
+[1] "194 / 519"
+[1] "Process lat/lon: 36.1424,-86.7341"
+  latitude longitude
+1  36.1424  -86.7341
+[1] "195 / 519"
+[1] "Process lat/lon: 37.780776,-87.075307"
+   latitude  longitude
+1 37.780776 -87.075307
+[1] "196 / 519"
+[1] "Process lat/lon: 38.06503,-84.49761"
+  latitude longitude
+1 38.06503 -84.49761
+[1] "197 / 519"
+[1] "Process lat/lon: 37.05822,-88.57251"
+  latitude longitude
+1 37.05822 -88.57251
+[1] "198 / 519"
+[1] "Process lat/lon: 40.483598,-109.906796"
+   latitude   longitude
+1 40.483598 -109.906796
+[1] "199 / 519"
+[1] "Process lat/lon: 41.841039,-71.36097"
+   latitude longitude
+1 41.841039 -71.36097
+[1] "200 / 519"
+[1] "Process lat/lon: 42.8608,-106.23586"
+  latitude  longitude
+1  42.8608 -106.23586
+[1] "201 / 519"
+[1] "Process lat/lon: 37.743649,-121.934188"
+   latitude   longitude
+1 37.743649 -121.934188
+[1] "202 / 519"
+[1] "Process lat/lon: 40.216779,-110.182742"
+   latitude   longitude
+1 40.216779 -110.182742
+[1] "203 / 519"
+[1] "Process lat/lon: 30.354944,-97.761803"
+   latitude  longitude
+1 30.354944 -97.761803
+[1] "204 / 519"
+[1] "Process lat/lon: 39.525083,-119.807717"
+   latitude   longitude
+1 39.525083 -119.807717
+[1] "205 / 519"
+[1] "Process lat/lon: 35.16126,-89.87065"
+  latitude longitude
+1 35.16126 -89.87065
+[1] "206 / 519"
+[1] "Process lat/lon: 32.29515,-110.9823"
+  latitude longitude
+1 32.29515 -110.9823
+[1] "207 / 519"
+[1] "Process lat/lon: 41.644722,-76.939167"
+   latitude  longitude
+1 41.644722 -76.939167
+[1] "208 / 519"
+[1] "Process lat/lon: 29.51509,-98.620166"
+  latitude  longitude
+1 29.51509 -98.620166
+[1] "209 / 519"
+[1] "Process lat/lon: 39.934559,-75.125219"
+   latitude  longitude
+1 39.934559 -75.125219
+[1] "210 / 519"
+[1] "Process lat/lon: 40.294178,-110.009732"
+   latitude   longitude
+1 40.294178 -110.009732
+[1] "211 / 519"
+[1] "Process lat/lon: 47.048537,-109.455315"
+   latitude   longitude
+1 47.048537 -109.455315
+[1] "212 / 519"
+[1] "Process lat/lon: 40.268963,-80.243995"
+   latitude  longitude
+1 40.268963 -80.243995
+[1] "213 / 519"
+[1] "Process lat/lon: 39.76168,-121.84047"
+  latitude  longitude
+1 39.76168 -121.84047
+[1] "214 / 519"
+[1] "Process lat/lon: 38.74643,-121.26498"
+  latitude  longitude
+1 38.74643 -121.26498
+[1] "215 / 519"
+[1] "Process lat/lon: 38.53445,-121.7734"
+  latitude longitude
+1 38.53445 -121.7734
+[1] "216 / 519"
+[1] "Process lat/lon: 48.317507,-107.862471"
+   latitude   longitude
+1 48.317507 -107.862471
+[1] "217 / 519"
+[1] "Process lat/lon: 39.138773,-121.618549"
+   latitude   longitude
+1 39.138773 -121.618549
+[1] "218 / 519"
+[1] "Process lat/lon: 41.705226,-76.512726"
+   latitude  longitude
+1 41.705226 -76.512726
+[1] "219 / 519"
+[1] "Process lat/lon: 34.843895,-82.414585"
+   latitude  longitude
+1 34.843895 -82.414585
+[1] "220 / 519"
+[1] "Process lat/lon: 36.332179,-119.291228"
+   latitude   longitude
+1 36.332179 -119.291228
+[1] "221 / 519"
+[1] "Process lat/lon: 45.440295,-105.370283"
+   latitude   longitude
+1 45.440295 -105.370283
+[1] "222 / 519"
+[1] "Process lat/lon: 42.325186,-71.056061"
+   latitude  longitude
+1 42.325186 -71.056061
+[1] "223 / 519"
+[1] "Process lat/lon: 39.751184,-104.987625"
+   latitude   longitude
+1 39.751184 -104.987625
+[1] "224 / 519"
+[1] "Process lat/lon: 32.67618,-115.48307"
+  latitude  longitude
+1 32.67618 -115.48307
+[1] "225 / 519"
+[1] "Process lat/lon: 39.047911,-94.450513"
+   latitude  longitude
+1 39.047911 -94.450513
+[1] "226 / 519"
+[1] "Process lat/lon: 38.656429,-90.198348"
+   latitude  longitude
+1 38.656429 -90.198348
+[1] "227 / 519"
+[1] "Process lat/lon: 45.366151,-106.48982"
+   latitude  longitude
+1 45.366151 -106.48982
+[1] "228 / 519"
+[1] "Process lat/lon: 37.59088,-77.46925"
+  latitude longitude
+1 37.59088 -77.46925
+[1] "229 / 519"
+[1] "Process lat/lon: 39.117219,-94.635605"
+   latitude  longitude
+1 39.117219 -94.635605
+[1] "230 / 519"
+[1] "Process lat/lon: 29.7216,-95.49265"
+  latitude longitude
+1  29.7216 -95.49265
+[1] "231 / 519"
+[1] "Process lat/lon: 39.146025,-84.538375"
+   latitude  longitude
+1 39.146025 -84.538375
+[1] "232 / 519"
+[1] "Process lat/lon: 35.50307,-97.577981"
+  latitude  longitude
+1 35.50307 -97.577981
+[1] "233 / 519"
+[1] "Process lat/lon: 40.11107,-83.065415"
+  latitude  longitude
+1 40.11107 -83.065415
+[1] "234 / 519"
+[1] "Process lat/lon: 39.787933,-86.13088"
+   latitude longitude
+1 39.787933 -86.13088
+[1] "235 / 519"
+[1] "Process lat/lon: 29.996013,-90.11819"
+   latitude longitude
+1 29.996013 -90.11819
+[1] "236 / 519"
+[1] "Process lat/lon: 29.529432,-98.391403"
+   latitude  longitude
+1 29.529432 -98.391403
+[1] "237 / 519"
+[1] "Process lat/lon: 42.421502,-83.425042"
+   latitude  longitude
+1 42.421502 -83.425042
+[1] "238 / 519"
+[1] "Process lat/lon: 47.597222,-122.319722"
+   latitude   longitude
+1 47.597222 -122.319722
+[1] "239 / 519"
+[1] "Process lat/lon: 35.356615,-119.062613"
+   latitude   longitude
+1 35.356615 -119.062613
+[1] "240 / 519"
+[1] "Process lat/lon: 43.608056,-72.982778"
+   latitude  longitude
+1 43.608056 -72.982778
+[1] "241 / 519"
+[1] "Process lat/lon: 33.553056,-86.815"
+   latitude longitude
+1 33.553056   -86.815
+[1] "242 / 519"
+[1] "Process lat/lon: 39.43806,-108.02611"
+  latitude  longitude
+1 39.43806 -108.02611
+[1] "243 / 519"
+[1] "Process lat/lon: 43.060975,-87.913504"
+   latitude  longitude
+1 43.060975 -87.913504
+[1] "244 / 519"
+[1] "Process lat/lon: 40.054171,-74.985166"
+   latitude  longitude
+1 40.054171 -74.985166
+[1] "245 / 519"
+[1] "Process lat/lon: 38.56844,-121.49311"
+  latitude  longitude
+1 38.56844 -121.49311
+[1] "246 / 519"
+[1] "Process lat/lon: 44.310555,-84.891865"
+   latitude  longitude
+1 44.310555 -84.891865
+[1] "247 / 519"
+[1] "Process lat/lon: 36.139707,-115.175654"
+   latitude   longitude
+1 36.139707 -115.175654
+[1] "248 / 519"
+[1] "Process lat/lon: 35.503587,-119.272606"
+   latitude   longitude
+1 35.503587 -119.272606
+[1] "249 / 519"
+[1] "Process lat/lon: 37.950741,-121.268523"
+   latitude   longitude
+1 37.950741 -121.268523
+[1] "250 / 519"
+[1] "Process lat/lon: 38.403765,-122.818294"
+   latitude   longitude
+1 38.403765 -122.818294
+[1] "251 / 519"
+[1] "Process lat/lon: 35.8652,-78.8197"
+  latitude longitude
+1  35.8652  -78.8197
+[1] "252 / 519"
+[1] "Process lat/lon: 33.859662,-118.200707"
+   latitude   longitude
+1 33.859662 -118.200707
+[1] "253 / 519"
+[1] "Process lat/lon: 42.921107,-78.765825"
+   latitude  longitude
+1 42.921107 -78.765825
+[1] "254 / 519"
+[1] "Process lat/lon: 32.92118,-96.75355"
+  latitude longitude
+1 32.92118 -96.75355
+[1] "255 / 519"
+[1] "Process lat/lon: 35.345607,-118.851825"
+   latitude   longitude
+1 35.345607 -118.851825
+[1] "256 / 519"
+[1] "Process lat/lon: 33.819305,-117.918759"
+   latitude   longitude
+1 33.819305 -117.918759
+[1] "257 / 519"
+[1] "Process lat/lon: 36.163962,-115.11393"
+   latitude  longitude
+1 36.163962 -115.11393
+[1] "258 / 519"
+[1] "Process lat/lon: 37.338135,-121.849783"
+   latitude   longitude
+1 37.338135 -121.849783
+[1] "259 / 519"
+[1] "Process lat/lon: 30.35386,-97.69166"
+  latitude longitude
+1 30.35386 -97.69166
+[1] "260 / 519"
+[1] "Process lat/lon: 45.3992,-122.7455"
+  latitude longitude
+1  45.3992 -122.7455
+[1] "261 / 519"
+[1] "Process lat/lon: 35.856111,-78.574167"
+   latitude  longitude
+1 35.856111 -78.574167
+[1] "262 / 519"
+[1] "Process lat/lon: 41.44013,-81.494833"
+  latitude  longitude
+1 41.44013 -81.494833
+[1] "263 / 519"
+[1] "Process lat/lon: 36.710833,-119.7775"
+   latitude longitude
+1 36.710833 -119.7775
+[1] "264 / 519"
+[1] "Process lat/lon: 30.262778,-81.606833"
+   latitude  longitude
+1 30.262778 -81.606833
+[1] "265 / 519"
+[1] "Process lat/lon: 40.85355,-73.96618"
+  latitude longitude
+1 40.85355 -73.96618
+[1] "266 / 519"
+[1] "Process lat/lon: 39.77949,-105.00518"
+  latitude  longitude
+1 39.77949 -105.00518
+[1] "267 / 519"
+[1] "Process lat/lon: 35.2401,-80.785683"
+  latitude  longitude
+1  35.2401 -80.785683
+[1] "268 / 519"
+[1] "Process lat/lon: 39.988842,-75.207205"
+   latitude  longitude
+1 39.988842 -75.207205
+[1] "269 / 519"
+[1] "Process lat/lon: 38.770081,-99.763424"
+   latitude  longitude
+1 38.770081 -99.763424
+[1] "270 / 519"
+[1] "Process lat/lon: 39.474976,-91.788991"
+   latitude  longitude
+1 39.474976 -91.788991
+[1] "271 / 519"
+[1] "Process lat/lon: 40.617488,-79.727664"
+   latitude  longitude
+1 40.617488 -79.727664
+[1] "272 / 519"
+[1] "Process lat/lon: 39.739462,-75.557554"
+   latitude  longitude
+1 39.739462 -75.557554
+[1] "273 / 519"
+[1] "Process lat/lon: 35.03146,-120.50103"
+  latitude  longitude
+1 35.03146 -120.50103
+[1] "274 / 519"
+[1] "Process lat/lon: 38.593322,-121.503795"
+   latitude   longitude
+1 38.593322 -121.503795
+[1] "275 / 519"
+[1] "Process lat/lon: 40.695078,-92.006318"
+   latitude  longitude
+1 40.695078 -92.006318
+[1] "276 / 519"
+[1] "Process lat/lon: 39.73217,-105.0153"
+  latitude longitude
+1 39.73217 -105.0153
+[1] "277 / 519"
+[1] "Process lat/lon: 35.213171,-80.874084"
+   latitude  longitude
+1 35.213171 -80.874084
+[1] "278 / 519"
+[1] "Process lat/lon: 40.43743,-79.863572"
+  latitude  longitude
+1 40.43743 -79.863572
+[1] "279 / 519"
+[1] "Process lat/lon: 41.603159,-93.643118"
+   latitude  longitude
+1 41.603159 -93.643118
+[1] "280 / 519"
+[1] "Process lat/lon: 35.49453,-120.66617"
+  latitude  longitude
+1 35.49453 -120.66617
+[1] "281 / 519"
+[1] "Process lat/lon: 39.70595,-79.012"
+  latitude longitude
+1 39.70595   -79.012
+[1] "282 / 519"
+[1] "Process lat/lon: 39.055277,-76.878333"
+   latitude  longitude
+1 39.055277 -76.878333
+[1] "283 / 519"
+[1] "Process lat/lon: 36.204902,-95.976537"
+   latitude  longitude
+1 36.204902 -95.976537
+[1] "284 / 519"
+[1] "Process lat/lon: 41.182227,-104.778334"
+   latitude   longitude
+1 41.182227 -104.778334
+[1] "285 / 519"
+[1] "Process lat/lon: 39.14313,-76.84611"
+  latitude longitude
+1 39.14313 -76.84611
+[1] "286 / 519"
+[1] "Process lat/lon: 43.101281,-105.498931"
+   latitude   longitude
+1 43.101281 -105.498931
+[1] "287 / 519"
+[1] "Process lat/lon: 42.486361,-110.098861"
+   latitude   longitude
+1 42.486361 -110.098861
+[1] "288 / 519"
+[1] "Process lat/lon: 33.698643,-84.272614"
+   latitude  longitude
+1 33.698643 -84.272614
+[1] "289 / 519"
+[1] "Process lat/lon: 43.42542,-105.388566"
+  latitude   longitude
+1 43.42542 -105.388566
+[1] "290 / 519"
+[1] "Process lat/lon: 41.79358,-107.08422"
+  latitude  longitude
+1 41.79358 -107.08422
+[1] "291 / 519"
+[1] "Process lat/lon: 32.664753,-97.337917"
+   latitude  longitude
+1 32.664753 -97.337917
+[1] "292 / 519"
+[1] "Process lat/lon: 38.75264,-90.44884"
+  latitude longitude
+1 38.75264 -90.44884
+[1] "293 / 519"
+[1] "Process lat/lon: 38.612034,-90.160477"
+   latitude  longitude
+1 38.612034 -90.160477
+[1] "294 / 519"
+[1] "Process lat/lon: 41.965193,-87.876265"
+   latitude  longitude
+1 41.965193 -87.876265
+[1] "295 / 519"
+[1] "Process lat/lon: 34.030833,-117.61722"
+   latitude  longitude
+1 34.030833 -117.61722
+[1] "296 / 519"
+[1] "Process lat/lon: 34.06812,-117.52579"
+  latitude  longitude
+1 34.06812 -117.52579
+[1] "297 / 519"
+[1] "Process lat/lon: 29.81453,-95.38769"
+  latitude longitude
+1 29.81453 -95.38769
+[1] "298 / 519"
+[1] "Process lat/lon: 36.78538,-119.77321"
+  latitude  longitude
+1 36.78538 -119.77321
+[1] "299 / 519"
+[1] "Process lat/lon: 33.944713,-116.830074"
+   latitude   longitude
+1 33.944713 -116.830074
+[1] "300 / 519"
+[1] "Process lat/lon: 44.706123,-93.285803"
+   latitude  longitude
+1 44.706123 -93.285803
+[1] "301 / 519"
+[1] "Process lat/lon: 35.331612,-118.999961"
+   latitude   longitude
+1 35.331612 -118.999961
+[1] "302 / 519"
+[1] "Process lat/lon: 25.732878,-80.16175"
+   latitude longitude
+1 25.732878 -80.16175
+[1] "303 / 519"
+[1] "Process lat/lon: 25.798709,-80.210048"
+   latitude  longitude
+1 25.798709 -80.210048
+[1] "304 / 519"
+[1] "Process lat/lon: 39.297733,-76.604603"
+   latitude  longitude
+1 39.297733 -76.604603
+[1] "305 / 519"
+[1] "Process lat/lon: 41.3014,-72.902871"
+  latitude  longitude
+1  41.3014 -72.902871
+[1] "306 / 519"
+[1] "Process lat/lon: 38.683304,-121.164457"
+   latitude   longitude
+1 38.683304 -121.164457
+[1] "307 / 519"
+[1] "Process lat/lon: 44.76323,-93.03255"
+  latitude longitude
+1 44.76323 -93.03255
+[1] "308 / 519"
+[1] "Process lat/lon: 44.77553,-93.06299"
+  latitude longitude
+1 44.77553 -93.06299
+[1] "309 / 519"
+[1] "Process lat/lon: 37.281853,-120.433671"
+   latitude   longitude
+1 37.281853 -120.433671
+[1] "310 / 519"
+[1] "Process lat/lon: 39.9679,-80.7464"
+  latitude longitude
+1  39.9679  -80.7464
+[1] "311 / 519"
+[1] "Process lat/lon: 42.93257,-87.93434"
+  latitude longitude
+1 42.93257 -87.93434
+[1] "312 / 519"
+[1] "Process lat/lon: 26.593808,-80.058492"
+   latitude  longitude
+1 26.593808 -80.058492
+[1] "313 / 519"
+[1] "Process lat/lon: 41.771444,-72.679923"
+   latitude  longitude
+1 41.771444 -72.679923
+[1] "314 / 519"
+[1] "Process lat/lon: 40.05671,-109.688108"
+  latitude   longitude
+1 40.05671 -109.688108
+[1] "315 / 519"
+[1] "Process lat/lon: 36.705474,-119.741332"
+   latitude   longitude
+1 36.705474 -119.741332
+[1] "316 / 519"
+[1] "Process lat/lon: 43.145013,-77.55728"
+   latitude longitude
+1 43.145013 -77.55728
+[1] "317 / 519"
+[1] "Process lat/lon: 42.751518,-96.707208"
+   latitude  longitude
+1 42.751518 -96.707208
+[1] "318 / 519"
+[1] "Process lat/lon: 38.89477,-76.953426"
+  latitude  longitude
+1 38.89477 -76.953426
+[1] "319 / 519"
+[1] "Process lat/lon: 32.882289,-79.977538"
+   latitude  longitude
+1 32.882289 -79.977538
+[1] "320 / 519"
+[1] "Process lat/lon: 35.63348,-83.941606"
+  latitude  longitude
+1 35.63348 -83.941606
+[1] "321 / 519"
+[1] "Process lat/lon: 37.488317,-120.836008"
+   latitude   longitude
+1 37.488317 -120.836008
+[1] "322 / 519"
+[1] "Process lat/lon: 43.54792,-96.700769"
+  latitude  longitude
+1 43.54792 -96.700769
+[1] "323 / 519"
+[1] "Process lat/lon: 40.787628,-74.676301"
+   latitude  longitude
+1 40.787628 -74.676301
+[1] "324 / 519"
+[1] "Process lat/lon: 36.11094,-80.224501"
+  latitude  longitude
+1 36.11094 -80.224501
+[1] "325 / 519"
+[1] "Process lat/lon: 39.7861,-104.9886"
+  latitude longitude
+1  39.7861 -104.9886
+[1] "326 / 519"
+[1] "Process lat/lon: 40.206291,-109.353932"
+   latitude   longitude
+1 40.206291 -109.353932
+[1] "327 / 519"
+[1] "Process lat/lon: 47.8679,-104.676944"
+  latitude   longitude
+1  47.8679 -104.676944
+[1] "328 / 519"
+[1] "Process lat/lon: 44.657014,-111.089618"
+   latitude   longitude
+1 44.657014 -111.089618
+[1] "329 / 519"
+[1] "Process lat/lon: 40.731645,-74.066308"
+   latitude  longitude
+1 40.731645 -74.066308
+[1] "330 / 519"
+[1] "Process lat/lon: 44.965242,-93.254759"
+   latitude  longitude
+1 44.965242 -93.254759
+[1] "331 / 519"
+[1] "Process lat/lon: 38.76835,-77.18347"
+  latitude longitude
+1 38.76835 -77.18347
+[1] "332 / 519"
+[1] "Process lat/lon: 38.1936,-85.7119"
+  latitude longitude
+1  38.1936  -85.7119
+[1] "333 / 519"
+[1] "Process lat/lon: 27.955133,-82.469532"
+   latitude  longitude
+1 27.955133 -82.469532
+[1] "334 / 519"
+[1] "Process lat/lon: 32.941023,-79.657187"
+   latitude  longitude
+1 32.941023 -79.657187
+[1] "335 / 519"
+[1] "Process lat/lon: 34.131262,-80.868318"
+   latitude  longitude
+1 34.131262 -80.868318
+[1] "336 / 519"
+[1] "Process lat/lon: 26.132677,-80.169817"
+   latitude  longitude
+1 26.132677 -80.169817
+[1] "337 / 519"
+[1] "Process lat/lon: 42.373499,-109.560498"
+   latitude   longitude
+1 42.373499 -109.560498
+[1] "338 / 519"
+[1] "Process lat/lon: 36.31567,-119.643447"
+  latitude   longitude
+1 36.31567 -119.643447
+[1] "339 / 519"
+[1] "Process lat/lon: 37.682635,-121.442495"
+   latitude   longitude
+1 37.682635 -121.442495
+[1] "340 / 519"
+[1] "Process lat/lon: 47.22634,-122.46256"
+  latitude  longitude
+1 47.22634 -122.46256
+[1] "341 / 519"
+[1] "Process lat/lon: 39.422273,-75.025204"
+   latitude  longitude
+1 39.422273 -75.025204
+[1] "342 / 519"
+[1] "Process lat/lon: 27.834409,-82.665251"
+   latitude  longitude
+1 27.834409 -82.665251
+[1] "343 / 519"
+[1] "Process lat/lon: 42.862531,-71.38014"
+   latitude longitude
+1 42.862531 -71.38014
+[1] "344 / 519"
+[1] "Process lat/lon: 38.302591,-121.420838"
+   latitude   longitude
+1 38.302591 -121.420838
+[1] "345 / 519"
+[1] "Process lat/lon: 37.864767,-122.302741"
+   latitude   longitude
+1 37.864767 -122.302741
+[1] "346 / 519"
+[1] "Process lat/lon: 36.141875,-115.078742"
+   latitude   longitude
+1 36.141875 -115.078742
+[1] "347 / 519"
+[1] "Process lat/lon: 37.205862,-107.254118"
+   latitude   longitude
+1 37.205862 -107.254118
+[1] "348 / 519"
+[1] "Process lat/lon: 43.48256,-110.74526"
+  latitude  longitude
+1 43.48256 -110.74526
+[1] "349 / 519"
+[1] "Process lat/lon: 33.46173,-112.12796"
+  latitude  longitude
+1 33.46173 -112.12796
+[1] "350 / 519"
+[1] "Process lat/lon: 39.310833,-76.474444"
+   latitude  longitude
+1 39.310833 -76.474444
+[1] "351 / 519"
+[1] "Process lat/lon: 25.785472,-80.284206"
+   latitude  longitude
+1 25.785472 -80.284206
+[1] "352 / 519"
+[1] "Process lat/lon: 39.838119,-104.94984"
+   latitude  longitude
+1 39.838119 -104.94984
+[1] "353 / 519"
+[1] "Process lat/lon: 43.87483,-106.50974"
+  latitude  longitude
+1 43.87483 -106.50974
+[1] "354 / 519"
+[1] "Process lat/lon: 38.22876,-85.65452"
+  latitude longitude
+1 38.22876 -85.65452
+[1] "355 / 519"
+[1] "Process lat/lon: 39.396075,-89.809739"
+   latitude  longitude
+1 39.396075 -89.809739
+[1] "356 / 519"
+[1] "Process lat/lon: 36.841592,-119.874739"
+   latitude   longitude
+1 36.841592 -119.874739
+[1] "357 / 519"
+[1] "Process lat/lon: 42.76138,-84.562867"
+  latitude  longitude
+1 42.76138 -84.562867
+[1] "358 / 519"
+[1] "Process lat/lon: 36.035,-107.904167"
+  latitude   longitude
+1   36.035 -107.904167
+[1] "359 / 519"
+[1] "Process lat/lon: 41.118333,-73.336667"
+   latitude  longitude
+1 41.118333 -73.336667
+[1] "360 / 519"
+[1] "Process lat/lon: 40.739264,-73.817694"
+   latitude  longitude
+1 40.739264 -73.817694
+[1] "361 / 519"
+[1] "Process lat/lon: 47.940861,-101.571583"
+   latitude   longitude
+1 47.940861 -101.571583
+[1] "362 / 519"
+[1] "Process lat/lon: 42.612085,-71.306986"
+   latitude  longitude
+1 42.612085 -71.306986
+[1] "363 / 519"
+[1] "Process lat/lon: 38.71209,-121.38109"
+  latitude  longitude
+1 38.71209 -121.38109
+[1] "364 / 519"
+[1] "Process lat/lon: 42.120229,-72.584503"
+   latitude  longitude
+1 42.120229 -72.584503
+[1] "365 / 519"
+[1] "Process lat/lon: 42.302778,-83.106667"
+   latitude  longitude
+1 42.302778 -83.106667
+[1] "366 / 519"
+[1] "Process lat/lon: 40.002707,-82.994424"
+   latitude  longitude
+1 40.002707 -82.994424
+[1] "367 / 519"
+[1] "Process lat/lon: 37.55652,-77.40027"
+  latitude longitude
+1 37.55652 -77.40027
+[1] "368 / 519"
+[1] "Process lat/lon: 39.371679,-76.746814"
+   latitude  longitude
+1 39.371679 -76.746814
+[1] "369 / 519"
+[1] "Process lat/lon: 42.7907,-110.0551"
+  latitude longitude
+1  42.7907 -110.0551
+[1] "370 / 519"
+[1] "Process lat/lon: 34.19925,-118.53276"
+  latitude  longitude
+1 34.19925 -118.53276
+[1] "371 / 519"
+[1] "Process lat/lon: 37.701222,-121.903019"
+   latitude   longitude
+1 37.701222 -121.903019
+[1] "372 / 519"
+[1] "Process lat/lon: 38.278849,-122.275024"
+   latitude   longitude
+1 38.278849 -122.275024
+[1] "373 / 519"
+[1] "Process lat/lon: 33.503833,-112.095767"
+   latitude   longitude
+1 33.503833 -112.095767
+[1] "374 / 519"
+[1] "Process lat/lon: 37.702066,-97.314847"
+   latitude  longitude
+1 37.702066 -97.314847
+[1] "375 / 519"
+[1] "Process lat/lon: 42.312158,-83.091943"
+   latitude  longitude
+1 42.312158 -83.091943
+[1] "376 / 519"
+[1] "Process lat/lon: 38.8764,-107.6023"
+  latitude longitude
+1  38.8764 -107.6023
+[1] "377 / 519"
+[1] "Process lat/lon: 40.961017,-73.139046"
+   latitude  longitude
+1 40.961017 -73.139046
+[1] "378 / 519"
+[1] "Process lat/lon: 31.088002,-97.679734"
+   latitude  longitude
+1 31.088002 -97.679734
+[1] "379 / 519"
+[1] "Process lat/lon: 39.810833,-86.114444"
+   latitude  longitude
+1 39.810833 -86.114444
+[1] "380 / 519"
+[1] "Process lat/lon: 47.568236,-122.308628"
+   latitude   longitude
+1 47.568236 -122.308628
+[1] "381 / 519"
+[1] "Process lat/lon: 47.342423,-102.645864"
+   latitude   longitude
+1 47.342423 -102.645864
+[1] "382 / 519"
+[1] "Process lat/lon: 44.52612,-109.01673"
+  latitude  longitude
+1 44.52612 -109.01673
+[1] "383 / 519"
+[1] "Process lat/lon: 39.917663,-79.805499"
+   latitude  longitude
+1 39.917663 -79.805499
+[1] "384 / 519"
+[1] "Process lat/lon: 40.8679,-73.87809"
+  latitude longitude
+1  40.8679 -73.87809
+[1] "385 / 519"
+[1] "Process lat/lon: 35.01708,-106.65739"
+  latitude  longitude
+1 35.01708 -106.65739
+[1] "386 / 519"
+[1] "Process lat/lon: 42.295824,-83.129431"
+   latitude  longitude
+1 42.295824 -83.129431
+[1] "387 / 519"
+[1] "Process lat/lon: 40.46471,-109.561472"
+  latitude   longitude
+1 40.46471 -109.561472
+[1] "388 / 519"
+[1] "Process lat/lon: 40.736389,-111.872222"
+   latitude   longitude
+1 40.736389 -111.872222
+[1] "389 / 519"
+[1] "Process lat/lon: 40.598056,-111.894167"
+   latitude   longitude
+1 40.598056 -111.894167
+[1] "390 / 519"
+[1] "Process lat/lon: 39.59575,-110.770111"
+  latitude   longitude
+1 39.59575 -110.770111
+[1] "391 / 519"
+[1] "Process lat/lon: 42.312078,-83.103469"
+   latitude  longitude
+1 42.312078 -83.103469
+[1] "392 / 519"
+[1] "Process lat/lon: 40.136378,-111.657936"
+   latitude   longitude
+1 40.136378 -111.657936
+[1] "393 / 519"
+[1] "Process lat/lon: 40.902967,-111.884467"
+   latitude   longitude
+1 40.902967 -111.884467
+[1] "394 / 519"
+[1] "Process lat/lon: 37.179125,-113.305096"
+   latitude   longitude
+1 37.179125 -113.305096
+[1] "395 / 519"
+[1] "Process lat/lon: 43.660246,-70.268965"
+   latitude  longitude
+1 43.660246 -70.268965
+[1] "396 / 519"
+[1] "Process lat/lon: 41.08536,-104.52277"
+  latitude  longitude
+1 41.08536 -104.52277
+[1] "397 / 519"
+[1] "Process lat/lon: 44.230622,-69.785"
+   latitude longitude
+1 44.230622   -69.785
+[1] "398 / 519"
+[1] "Process lat/lon: 33.447867,-117.088649"
+   latitude   longitude
+1 33.447867 -117.088649
+[1] "399 / 519"
+[1] "Process lat/lon: 40.60055,-112.35578"
+  latitude  longitude
+1 40.60055 -112.35578
+[1] "400 / 519"
+[1] "Process lat/lon: 42.894444,-85.852778"
+   latitude  longitude
+1 42.894444 -85.852778
+[1] "401 / 519"
+[1] "Process lat/lon: 41.206321,-111.975524"
+   latitude   longitude
+1 41.206321 -111.975524
+[1] "402 / 519"
+[1] "Process lat/lon: 40.712146,-112.111275"
+   latitude   longitude
+1 40.712146 -112.111275
+[1] "403 / 519"
+[1] "Process lat/lon: 41.492707,-112.018863"
+   latitude   longitude
+1 41.492707 -112.018863
+[1] "404 / 519"
+[1] "Process lat/lon: 35.376953,-119.043889"
+   latitude   longitude
+1 35.376953 -119.043889
+[1] "405 / 519"
+[1] "Process lat/lon: 40.496392,-112.036298"
+   latitude   longitude
+1 40.496392 -112.036298
+[1] "406 / 519"
+[1] "Process lat/lon: 40.341389,-111.713611"
+   latitude   longitude
+1 40.341389 -111.713611
+[1] "407 / 519"
+[1] "Process lat/lon: 41.303614,-111.987871"
+   latitude   longitude
+1 41.303614 -111.987871
+[1] "408 / 519"
+[1] "Process lat/lon: 40.662961,-111.901851"
+   latitude   longitude
+1 40.662961 -111.901851
+[1] "409 / 519"
+[1] "Process lat/lon: 41.842649,-111.852199"
+   latitude   longitude
+1 41.842649 -111.852199
+[1] "410 / 519"
+[1] "Process lat/lon: 37.74743,-113.055525"
+  latitude   longitude
+1 37.74743 -113.055525
+[1] "411 / 519"
+[1] "Process lat/lon: 39.63551,-109.43128"
+  latitude  longitude
+1 39.63551 -109.43128
+[1] "412 / 519"
+[1] "Process lat/lon: 40.78422,-111.931"
+  latitude longitude
+1 40.78422  -111.931
+[1] "413 / 519"
+[1] "Process lat/lon: 30.039524,-95.673951"
+   latitude  longitude
+1 30.039524 -95.673951
+[1] "414 / 519"
+[1] "Process lat/lon: 32.842318,-116.768293"
+   latitude   longitude
+1 32.842318 -116.768293
+[1] "415 / 519"
+[1] "Process lat/lon: 33.217046,-117.396249"
+   latitude   longitude
+1 33.217046 -117.396249
+[1] "416 / 519"
+[1] "Process lat/lon: 32.564968,-96.317687"
+   latitude  longitude
+1 32.564968 -96.317687
+[1] "417 / 519"
+[1] "Process lat/lon: 32.98426,-97.063721"
+  latitude  longitude
+1 32.98426 -97.063721
+[1] "418 / 519"
+[1] "Process lat/lon: 29.802707,-95.125495"
+   latitude  longitude
+1 29.802707 -95.125495
+[1] "419 / 519"
+[1] "Process lat/lon: 31.746775,-106.402806"
+   latitude   longitude
+1 31.746775 -106.402806
+[1] "420 / 519"
+[1] "Process lat/lon: 31.768286,-106.501243"
+   latitude   longitude
+1 31.768286 -106.501243
+[1] "421 / 519"
+[1] "Process lat/lon: 42.298493,-72.334079"
+   latitude  longitude
+1 42.298493 -72.334079
+[1] "422 / 519"
+[1] "Process lat/lon: 33.95507,-118.43049"
+  latitude  longitude
+1 33.95507 -118.43049
+[1] "423 / 519"
+[1] "Process lat/lon: 34.10374,-117.62914"
+  latitude  longitude
+1 34.10374 -117.62914
+[1] "424 / 519"
+[1] "Process lat/lon: 29.979958,-94.004746"
+   latitude  longitude
+1 29.979958 -94.004746
+[1] "425 / 519"
+[1] "Process lat/lon: 29.254474,-94.861289"
+   latitude  longitude
+1 29.254474 -94.861289
+[1] "426 / 519"
+[1] "Process lat/lon: 42.474642,-70.970816"
+   latitude  longitude
+1 42.474642 -70.970816
+[1] "427 / 519"
+[1] "Process lat/lon: 42.211774,-71.11397"
+   latitude longitude
+1 42.211774 -71.11397
+[1] "428 / 519"
+[1] "Process lat/lon: 42.19438,-72.555112"
+  latitude  longitude
+1 42.19438 -72.555112
+[1] "429 / 519"
+[1] "Process lat/lon: 32.845709,-117.123964"
+   latitude   longitude
+1 32.845709 -117.123964
+[1] "430 / 519"
+[1] "Process lat/lon: 38.613779,-121.368014"
+   latitude   longitude
+1 38.613779 -121.368014
+[1] "431 / 519"
+[1] "Process lat/lon: 34.276316,-118.683685"
+   latitude   longitude
+1 34.276316 -118.683685
+[1] "432 / 519"
+[1] "Process lat/lon: 34.25239,-119.143182"
+  latitude   longitude
+1 34.25239 -119.143182
+[1] "433 / 519"
+[1] "Process lat/lon: 32.578165,-116.921374"
+   latitude   longitude
+1 32.578165 -116.921374
+[1] "434 / 519"
+[1] "Process lat/lon: 32.789565,-116.944308"
+   latitude   longitude
+1 32.789565 -116.944308
+[1] "435 / 519"
+[1] "Process lat/lon: 45.13768,-93.207615"
+  latitude  longitude
+1 45.13768 -93.207615
+[1] "436 / 519"
+[1] "Process lat/lon: 32.985428,-117.082198"
+   latitude   longitude
+1 32.985428 -117.082198
+[1] "437 / 519"
+[1] "Process lat/lon: 36.819449,-119.716433"
+   latitude   longitude
+1 36.819449 -119.716433
+[1] "438 / 519"
+[1] "Process lat/lon: 36.597442,-119.503659"
+   latitude   longitude
+1 36.597442 -119.503659
+[1] "439 / 519"
+[1] "Process lat/lon: 41.784722,-72.631667"
+   latitude  longitude
+1 41.784722 -72.631667
+[1] "440 / 519"
+[1] "Process lat/lon: 36.867125,-120.010158"
+   latitude   longitude
+1 36.867125 -120.010158
+[1] "441 / 519"
+[1] "Process lat/lon: 41.945874,-112.233973"
+   latitude   longitude
+1 41.945874 -112.233973
+[1] "442 / 519"
+[1] "Process lat/lon: 45.496641,-122.602877"
+   latitude   longitude
+1 45.496641 -122.602877
+[1] "443 / 519"
+[1] "Process lat/lon: 41.57862,-87.557406"
+  latitude  longitude
+1 41.57862 -87.557406
+[1] "444 / 519"
+[1] "Process lat/lon: 39.912799,-105.188587"
+   latitude   longitude
+1 39.912799 -105.188587
+[1] "445 / 519"
+[1] "Process lat/lon: 43.600699,-116.347853"
+   latitude   longitude
+1 43.600699 -116.347853
+[1] "446 / 519"
+[1] "Process lat/lon: 44.13862,-87.61612"
+  latitude longitude
+1 44.13862 -87.61612
+[1] "447 / 519"
+[1] "Process lat/lon: 41.920009,-87.672995"
+   latitude  longitude
+1 41.920009 -87.672995
+[1] "448 / 519"
+[1] "Process lat/lon: 39.991389,-75.080833"
+   latitude  longitude
+1 39.991389 -75.080833
+[1] "449 / 519"
+[1] "Process lat/lon: 36.511708,-77.655389"
+   latitude  longitude
+1 36.511708 -77.655389
+[1] "450 / 519"
+[1] "Process lat/lon: 44.373056,-110.830833"
+   latitude   longitude
+1 44.373056 -110.830833
+[1] "451 / 519"
+[1] "Process lat/lon: 32.710177,-117.142665"
+   latitude   longitude
+1 32.710177 -117.142665
+[1] "452 / 519"
+[1] "Process lat/lon: 40.777145,-111.945849"
+   latitude   longitude
+1 40.777145 -111.945849
+[1] "453 / 519"
+[1] "Process lat/lon: 41.55643,-109.53044"
+  latitude  longitude
+1 41.55643 -109.53044
+[1] "454 / 519"
+[1] "Process lat/lon: 32.987891,-97.477175"
+   latitude  longitude
+1 32.987891 -97.477175
+[1] "455 / 519"
+[1] "Process lat/lon: 32.922492,-97.282099"
+   latitude  longitude
+1 32.922492 -97.282099
+[1] "456 / 519"
+[1] "Process lat/lon: 29.632058,-98.564936"
+   latitude  longitude
+1 29.632058 -98.564936
+[1] "457 / 519"
+[1] "Process lat/lon: 28.88044,-97.888065"
+  latitude  longitude
+1 28.88044 -97.888065
+[1] "458 / 519"
+[1] "Process lat/lon: 29.1307,-98.1481"
+  latitude longitude
+1  29.1307  -98.1481
+[1] "459 / 519"
+[1] "Process lat/lon: 39.521933,-119.7954"
+   latitude longitude
+1 39.521933 -119.7954
+[1] "460 / 519"
+[1] "Process lat/lon: 33.793713,-118.171019"
+   latitude   longitude
+1 33.793713 -118.171019
+[1] "461 / 519"
+[1] "Process lat/lon: 34.181977,-118.363036"
+   latitude   longitude
+1 34.181977 -118.363036
+[1] "462 / 519"
+[1] "Process lat/lon: 47.523355,-92.536305"
+   latitude  longitude
+1 47.523355 -92.536305
+[1] "463 / 519"
+[1] "Process lat/lon: 45.50077,-122.5717"
+  latitude longitude
+1 45.50077 -122.5717
+[1] "464 / 519"
+[1] "Process lat/lon: 41.9054,-109.85"
+  latitude longitude
+1  41.9054   -109.85
+[1] "465 / 519"
+[1] "Process lat/lon: 42.50472,-87.8093"
+  latitude longitude
+1 42.50472  -87.8093
+[1] "466 / 519"
+[1] "Process lat/lon: 32.836602,-79.956983"
+   latitude  longitude
+1 32.836602 -79.956983
+[1] "467 / 519"
+[1] "Process lat/lon: 40.181625,-104.72613"
+   latitude  longitude
+1 40.181625 -104.72613
+[1] "468 / 519"
+[1] "Process lat/lon: 43.02421,-108.3637"
+  latitude longitude
+1 43.02421 -108.3637
+[1] "469 / 519"
+[1] "Process lat/lon: 40.709762,-112.00876"
+   latitude  longitude
+1 40.709762 -112.00876
+[1] "470 / 519"
+[1] "Process lat/lon: 35.551868,-80.395039"
+   latitude  longitude
+1 35.551868 -80.395039
+[1] "471 / 519"
+[1] "Process lat/lon: 39.8723,-108.2183"
+  latitude longitude
+1  39.8723 -108.2183
+[1] "472 / 519"
+[1] "Process lat/lon: 42.388405,-82.979793"
+   latitude  longitude
+1 42.388405 -82.979793
+[1] "473 / 519"
+[1] "Process lat/lon: 36.83343,-79.337469"
+  latitude  longitude
+1 36.83343 -79.337469
+[1] "474 / 519"
+[1] "Process lat/lon: 29.772915,-95.395784"
+   latitude  longitude
+1 29.772915 -95.395784
+[1] "475 / 519"
+[1] "Process lat/lon: 42.43084,-83.000138"
+  latitude  longitude
+1 42.43084 -83.000138
+[1] "476 / 519"
+[1] "Process lat/lon: 42.984173,-85.671339"
+   latitude  longitude
+1 42.984173 -85.671339
+[1] "477 / 519"
+[1] "Process lat/lon: 33.41046,-112.00264"
+  latitude  longitude
+1 33.41046 -112.00264
+[1] "478 / 519"
+[1] "Process lat/lon: 40.807897,-112.087717"
+   latitude   longitude
+1 40.807897 -112.087717
+[1] "479 / 519"
+[1] "Process lat/lon: 42.241229,-70.963346"
+   latitude  longitude
+1 42.241229 -70.963346
+[1] "480 / 519"
+[1] "Process lat/lon: 43.59901,-96.78331"
+  latitude longitude
+1 43.59901 -96.78331
+[1] "481 / 519"
+[1] "Process lat/lon: 43.09456,-87.90144"
+  latitude longitude
+1 43.09456 -87.90144
+[1] "482 / 519"
+[1] "Process lat/lon: 41.32417,-105.61489"
+  latitude  longitude
+1 41.32417 -105.61489
+[1] "483 / 519"
+[1] "Process lat/lon: 35.151699,-89.850249"
+   latitude  longitude
+1 35.151699 -89.850249
+[1] "484 / 519"
+[1] "Process lat/lon: 26.053889,-80.256944"
+   latitude  longitude
+1 26.053889 -80.256944
+[1] "485 / 519"
+[1] "Process lat/lon: 42.139996,-87.799227"
+   latitude  longitude
+1 42.139996 -87.799227
+[1] "486 / 519"
+[1] "Process lat/lon: 36.214465,-115.091437"
+   latitude   longitude
+1 36.214465 -115.091437
+[1] "487 / 519"
+[1] "Process lat/lon: 41.783083,-110.53788"
+   latitude  longitude
+1 41.783083 -110.53788
+[1] "488 / 519"
+[1] "Process lat/lon: 25.899539,-80.38259"
+   latitude longitude
+1 25.899539 -80.38259
+[1] "489 / 519"
+[1] "Process lat/lon: 37.961578,-121.281414"
+   latitude   longitude
+1 37.961578 -121.281414
+[1] "490 / 519"
+[1] "Process lat/lon: 46.411389,-105.812778"
+   latitude   longitude
+1 46.411389 -105.812778
+[1] "491 / 519"
+[1] "Process lat/lon: 39.33746,-76.58905"
+  latitude longitude
+1 39.33746 -76.58905
+[1] "492 / 519"
+[1] "Process lat/lon: 36.30815,-119.3129"
+  latitude longitude
+1 36.30815 -119.3129
+[1] "493 / 519"
+[1] "Process lat/lon: 40.46542,-79.960757"
+  latitude  longitude
+1 40.46542 -79.960757
+[1] "494 / 519"
+[1] "Process lat/lon: 27.96565,-82.2304"
+  latitude longitude
+1 27.96565  -82.2304
+[1] "495 / 519"
+[1] "Process lat/lon: 40.5506,-106.385"
+  latitude longitude
+1  40.5506  -106.385
+[1] "496 / 519"
+[1] "Process lat/lon: 32.194671,-111.033167"
+   latitude   longitude
+1 32.194671 -111.033167
+[1] "497 / 519"
+[1] "Process lat/lon: 41.771987,-71.427881"
+   latitude  longitude
+1 41.771987 -71.427881
+[1] "498 / 519"
+[1] "Process lat/lon: 37.08727,-88.60801"
+  latitude longitude
+1 37.08727 -88.60801
+[1] "499 / 519"
+[1] "Process lat/lon: 37.68975,-121.77155"
+  latitude  longitude
+1 37.68975 -121.77155
+[1] "500 / 519"
+[1] "Process lat/lon: 34.725389,-118.178601"
+   latitude   longitude
+1 34.725389 -118.178601
+[1] "501 / 519"
+[1] "Process lat/lon: 35.063569,-106.647503"
+   latitude   longitude
+1 35.063569 -106.647503
+[1] "502 / 519"
+[1] "Process lat/lon: 38.566055,-109.53716"
+   latitude  longitude
+1 38.566055 -109.53716
+[1] "503 / 519"
+[1] "Process lat/lon: 32.552824,-117.047345"
+   latitude   longitude
+1 32.552824 -117.047345
+[1] "504 / 519"
+[1] "Process lat/lon: 41.530011,-90.587611"
+   latitude  longitude
+1 41.530011 -90.587611
+[1] "505 / 519"
+[1] "Process lat/lon: 42.452299,-73.239648"
+   latitude  longitude
+1 42.452299 -73.239648
+[1] "506 / 519"
+[1] "Process lat/lon: 40.766528,-111.82835"
+   latitude  longitude
+1 40.766528 -111.82835
+[1] "507 / 519"
+[1] "Process lat/lon: 35.278292,-80.796996"
+   latitude  longitude
+1 35.278292 -80.796996
+[1] "508 / 519"
+[1] "Process lat/lon: 45.806311,-108.425978"
+   latitude   longitude
+1 45.806311 -108.425978
+[1] "509 / 519"
+[1] "Process lat/lon: 42.885368,-85.679765"
+   latitude  longitude
+1 42.885368 -85.679765
+[1] "510 / 519"
+[1] "Process lat/lon: 42.393574,-83.431948"
+   latitude  longitude
+1 42.393574 -83.431948
+[1] "511 / 519"
+[1] "Process lat/lon: 40.2614,-104.70645"
+  latitude  longitude
+1  40.2614 -104.70645
+[1] "512 / 519"
+[1] "Process lat/lon: 41.485007,-112.021476"
+   latitude   longitude
+1 41.485007 -112.021476
+[1] "513 / 519"
+[1] "Process lat/lon: 44.803888,-106.961388"
+   latitude   longitude
+1 44.803888 -106.961388
+[1] "514 / 519"
+[1] "Process lat/lon: 40.515109,-104.949932"
+   latitude   longitude
+1 40.515109 -104.949932
+[1] "515 / 519"
+[1] "Process lat/lon: 41.588856,-109.237842"
+   latitude   longitude
+1 41.588856 -109.237842
+[1] "516 / 519"
+[1] "Process lat/lon: 28.53417,-81.38492"
+  latitude longitude
+1 28.53417 -81.38492
+[1] "517 / 519"
+[1] "Process lat/lon: 39.923969,-75.122317"
+   latitude  longitude
+1 39.923969 -75.122317
+[1] "518 / 519"
+[1] "Process lat/lon: 40.497962,-111.39763"
+   latitude  longitude
+1 40.497962 -111.39763
+[1] "519 / 519"
+[1] "Process lat/lon: 28.446308,-81.417439"
+   latitude  longitude
+1 28.446308 -81.417439
+Folder created at: /proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/EPA-AQSbounding_box_xminlon_-125_xmaxlon_-67_yminlat_25_ymaxlat_49 
+Warning message:
+In dir.create(folder_path1, recursive = TRUE) :
+  '/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/DATA/EPA-AQS/bounding_box_xminlon_-125_xmaxlon_-67_yminlat_25_ymaxlat_49' already exists
+[1] "Saving: /proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/EPA-AQSbounding_box_xminlon_-125_xmaxlon_-67_yminlat_25_ymaxlat_49/unique_lat_lon.csv"
+Writing layer `unique_lat_lon' to data source 
+  `/proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/EPA-AQSbounding_box_xminlon_-125_xmaxlon_-67_yminlat_25_ymaxlat_49/unique_lat_lon.shp' using driver `ESRI Shapefile'
+Creating or updating layer unique_lat_lon failed.
+Error: Write error.
+In addition: Warning message:
+In CPL_write_ogr(obj, dsn, layer, driver, as.character(dataset_options),  :
+  GDAL Error 1: Failed to create file /proj/ie/proj/Wellcome-ZEAS/RemoteSensing/Results/EPA-AQSbounding_box_xminlon_-125_xmaxlon_-67_yminlat_25_ymaxlat_49/unique_lat_lon.shp: No such file or directory
+Execution halted

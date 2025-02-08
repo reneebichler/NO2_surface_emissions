@@ -1,5 +1,4 @@
 pandas==
-geopandas==
-ee==
+geopandas==1.0.1
 datetime==
 calendar==

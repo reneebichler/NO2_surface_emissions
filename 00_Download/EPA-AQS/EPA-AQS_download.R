@@ -1,23 +1,13 @@
 ## ------------------------------------------------------------------------------------
-## Description
-## ------------------------------------------------------------------------------------
-
-"""
-Download monthly mean Sentinel-5P NO2 data from Google Earth Engine, clipped to a shapefile region and exported as GeoTIFF.
-
-Date format: YYYY-MM-DD
-"""
-
-## ------------------------------------------------------------------------------------
 ## Libraries
 ## ------------------------------------------------------------------------------------
 
-if (!require('RAQSAPI')) install.packages('RAQSAPI'); library('RAQSAPI')
-if (!require('keyring')) install.packages('keyring'); library('keyring')
-if (!require('leaflet')) install.packages('leaflet'); library('leaflet')
-if (!require('ggplot2')) install.packages('ggplot2'); library('ggplot2')
-if (!require('sf')) install.packages('sf'); library('sf')
-if (!require('geojsonio')) install.packages('geojsonio'); library('geojsonio')
+library(RAQSAPI)
+library(keyring)
+library(leaflet)
+library(ggplot2)
+library(sf)
+library(geojsonio)
 
 sf::sf_use_s2(FALSE)
 
@@ -27,10 +17,7 @@ sf::sf_use_s2(FALSE)
 
 aoi_l <- c("USA")
 
-## Combined monthly and daily list
 mmdd_l <- c("0131", "0229", "0331", "0430", "0531", "0630", "0731", "0831", "0930", "1031", "1130", "1231")
-
-## Yearly list
 yyyy_l <- c("2019", "2020", "2021", "2022", "2023", "2024")
 
 time_resolution <- "h"
@@ -47,7 +34,7 @@ for (aoi in aoi_l) {
 
     ## Create folder path
     folder_name <- aoi
-    folder_path <- paste0(storage, "/DATA/EPA-AQS/", aoi, "/")
+    folder_path <- paste0(storage, "DATA/EPA-AQS/")
 
     ## Check if the folder path exists. If not, create folder!
     if (!file.exists(folder_path)) {
@@ -119,9 +106,20 @@ for (aoi in aoi_l) {
                 ## Extract information from boundingbox for filename
                 pollutant_bbox <- unique(aqs_bbox$parameter_code)
 
-                filename_p1 <- paste0(folder_path, "EPA-AQS_", time_resolution, "_", sd, "-", ed, "_", pollutant_bbox, "_")
+                ## Create folder path
+                filename_p1 <- paste0("EPA-AQS_", time_resolution, "_", sd, "-", ed, "_", pollutant_bbox, "_")
                 filename_p2 <- paste0("xminlon_", round(minlon), "_xmaxlon_", round(maxlon), "_yminlat_", round(minlat), "_ymaxlat_", round(maxlat))
-                filename <- paste0(filename_p1, filename_p2,  ".csv")
+                
+                folder_path1 <- paste0(folder_path, "bounding_box_", filename_p2)
+                filename <- paste0(folder_path1, "/", filename_p1, filename_p2,  ".csv")
+
+                ## Check if the folder path exists. If not, create folder!
+                if (!file.exists(folder_path1)) {
+                    dir.create(folder_path1, recursive = TRUE)
+                    cat("Folder created at:", folder_path1, "\n")
+                } else {
+                    cat("Folder already exists at:", folder_path1, "\n")
+                }
 
                 print("Export csv")
 
@@ -132,7 +130,7 @@ for (aoi in aoi_l) {
                 print("Export geojson")
 
                 ## Export geojson of bounding box
-                geojson_write(boundingbox, geometry = "LINESTRING", file = paste0(folder_path, "bounding_box_", filename_p2, ".geojson"))
+                geojson_write(boundingbox, geometry = "LINESTRING", file = paste0(folder_path1, "/bounding_box_", filename_p2, ".geojson"))
 
             }, silent = TRUE)
 
